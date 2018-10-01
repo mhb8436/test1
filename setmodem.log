@@ -1,0 +1,292 @@
+2018-10-01 10:38:18,637 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 10:38:19,650 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 10:38:20,162 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 10:38:20,163 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 10:38:24,310 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 10:38:24,330 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 10:38:25,318 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 10:38:25,338 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 10:38:25,830 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 10:38:25,831 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 10:38:25,850 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 10:38:25,851 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 10:42:17,762 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 10:42:18,776 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 10:42:19,288 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 10:42:19,288 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 10:42:23,590 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 10:42:23,607 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 10:42:24,598 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 10:42:24,615 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 10:42:25,111 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 10:42:25,112 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 10:42:25,130 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 10:42:25,131 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 10:48:19,802 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 10:48:20,812 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 10:48:21,326 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 10:48:21,327 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 10:48:25,212 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 10:48:25,634 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 10:48:26,220 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 10:48:26,642 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 10:48:26,735 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 10:48:26,736 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 10:48:27,156 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 10:48:27,157 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 11:05:38,244 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 11:05:39,256 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 11:05:39,769 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 11:05:39,769 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 11:05:43,966 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 11:05:43,983 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 11:05:44,974 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 11:05:44,991 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 11:05:45,486 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 11:05:45,487 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 11:05:45,504 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 11:05:45,505 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 11:18:35,715 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 11:18:35,715 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 11:18:36,725 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 11:18:36,725 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 11:18:37,239 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 11:18:37,240 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 11:18:37,249 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 11:18:37,250 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 11:18:41,847 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 11:18:42,855 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 11:18:43,380 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 11:18:43,381 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 14:43:23,230 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 14:43:24,243 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 14:43:24,766 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 14:43:24,767 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 14:43:29,077 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 14:43:30,085 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 14:43:30,598 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 14:43:30,599 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 14:43:39,885 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 14:43:40,892 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 14:43:41,405 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 14:43:41,406 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 14:48:21,659 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 14:48:21,743 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 14:48:22,670 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 14:48:22,751 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 14:48:23,189 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 14:48:23,190 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 14:48:23,266 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 14:48:23,267 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 14:48:37,866 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 14:51:03,764 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 14:51:04,277 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 14:51:04,278 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 14:58:50,364 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 14:58:51,371 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 14:58:51,890 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 14:58:51,891 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 14:58:52,573 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 14:58:53,580 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 14:58:54,103 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 14:58:54,104 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:02:23,139 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:02:24,147 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:02:24,656 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:02:24,657 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:02:31,096 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:02:32,104 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:02:32,614 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:02:32,615 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:04:21,159 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:04:22,167 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:04:22,700 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:04:22,701 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:04:51,595 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:04:52,606 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:04:53,123 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:04:53,124 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:05:32,332 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:05:33,341 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:05:33,865 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:05:33,866 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:05:35,349 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:05:36,358 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:05:36,877 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:05:36,878 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:05:55,809 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 15:05:56,816 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 15:05:57,331 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 15:05:57,331 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 15:14:19,052 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 15:14:19,052 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:14:20,063 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:14:20,063 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 15:14:20,577 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 15:14:20,578 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 15:14:20,582 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:14:20,583 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:16:22,604 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:16:23,612 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:16:24,135 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:16:24,136 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:18:07,899 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:18:08,911 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:18:09,437 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:18:09,437 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:18:13,770 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 15:18:14,778 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 15:18:15,293 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 15:18:15,294 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 15:18:24,301 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:18:25,308 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:18:25,819 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:18:25,820 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:18:30,363 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:18:31,371 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:18:31,889 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:18:31,890 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:39:16,342 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:39:17,357 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:39:17,867 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:39:17,868 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:40:45,722 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:40:46,733 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:40:47,263 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:40:47,264 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:40:51,422 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 15:40:52,430 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 15:40:52,945 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 15:40:52,946 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 15:41:02,305 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:41:03,312 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:41:03,828 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:41:03,828 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:54:54,685 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:54:55,697 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:54:56,208 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:54:56,208 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:54:59,906 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 15:55:00,288 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:55:00,914 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 15:55:01,296 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:55:01,427 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 15:55:01,428 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 15:55:01,808 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:55:01,809 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 15:57:09,092 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:57:09,092 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 15:57:10,102 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 15:57:10,102 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:57:10,621 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 15:57:10,628 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 15:57:10,622 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:57:10,630 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:57:25,632 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 15:57:26,641 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 15:57:27,155 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 15:57:27,164 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 15:57:42,740 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 15:57:43,748 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 15:57:44,270 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 15:57:44,271 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 16:14:59,172 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 16:15:00,179 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 16:15:00,690 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 16:15:00,690 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 16:15:18,718 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 16:15:19,726 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 16:15:20,236 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 16:15:20,237 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 16:17:36,622 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 16:17:36,622 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 16:17:37,632 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 16:17:37,632 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 16:17:38,147 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 16:17:38,148 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 16:17:38,155 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 16:17:38,156 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 16:17:41,149 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 16:17:42,157 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 16:17:42,669 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 16:17:42,670 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 16:30:15,373 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 16:30:16,381 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 16:30:16,897 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 16:30:16,898 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 16:38:08,926 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 16:38:09,377 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 16:38:09,934 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 16:38:10,385 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 16:38:10,450 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 16:38:10,450 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 16:38:10,897 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 16:38:10,898 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 16:47:05,245 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 16:47:05,245 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 16:47:06,256 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 16:47:06,257 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 16:47:06,772 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 16:47:06,773 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 16:47:06,778 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 16:47:06,779 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 16:47:10,165 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 16:47:11,173 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 16:47:11,697 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 16:47:11,698 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 17:07:46,509 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 17:07:47,521 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 17:07:48,032 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 17:07:48,033 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 17:17:15,300 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 17:17:16,312 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 17:17:16,835 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 17:17:16,836 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 17:17:21,177 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 17:17:22,185 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 17:17:22,700 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 17:17:22,701 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 17:17:32,017 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 17:17:33,025 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 17:17:33,539 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 17:17:33,540 SetSerialModem 57 DEBUG setBand 7 success
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             2018-10-01 17:32:14,272 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 17:32:15,283 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 17:32:15,802 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 17:32:15,803 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 17:32:20,246 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 17:32:21,254 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 17:32:21,769 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 17:32:21,770 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-01 17:32:30,918 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 17:32:31,926 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 17:32:32,446 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 17:32:32,446 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 17:34:51,100 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-01 17:34:52,112 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-01 17:34:52,624 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-01 17:34:52,624 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-01 17:34:56,809 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-01 17:34:56,818 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-01 17:34:57,817 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-01 17:34:57,826 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-01 17:34:58,332 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-01 17:34:58,333 SetSerialModem 57 DEBUG setBand 7 success
+2018-10-01 17:34:58,341 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-01 17:34:58,342 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-02 08:43:36,679 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-02 08:43:37,690 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-02 08:43:38,218 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-02 08:43:38,219 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-02 08:47:09,711 SetSerialModem 24 INFO init /dev/ttyUSB2 1
+2018-10-02 08:47:10,724 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,1,00
+2018-10-02 08:47:11,237 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,1,00\r\r\n', 'OK\r\n']
+2018-10-02 08:47:11,237 SetSerialModem 57 DEBUG setBand 1 success
+2018-10-02 08:47:14,925 SetSerialModem 24 INFO init /dev/ttyUSB6 5
+2018-10-02 08:47:15,121 SetSerialModem 24 INFO init /dev/ttyUSB11 7
+2018-10-02 08:47:15,933 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,10,00
+2018-10-02 08:47:16,129 SetSerialModem 39 DEBUG setBand AT+QCFG="band",0000FFFF,40,00
+2018-10-02 08:47:16,448 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,10,00\r\r\n', 'OK\r\n']
+2018-10-02 08:47:16,449 SetSerialModem 57 DEBUG setBand 5 success
+2018-10-02 08:47:16,641 SetSerialModem 43 DEBUG res setBand ['AT+QCFG="band",0000FFFF,40,00\r\r\n', 'OK\r\n']
+2018-10-02 08:47:16,642 SetSerialModem 57 DEBUG setBand 7 success
