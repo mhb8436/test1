@@ -40407,3 +40407,1927 @@ Oct  2 08:52:37 dr100 systemd[1]: apt-daily.timer: Adding 9h 12min 13.029290s ra
 Oct  2 08:52:37 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 34min 59.971110s random time.
 Oct  2 08:53:09 dr100 systemd[1]: Started GPS (Global Positioning System) Daemon.
 Oct  2 08:53:09 dr100 kernel: [   67.135296] uart-pl011 3f201000.serial: no DMA platform data
+Oct  2 09:07:04 dr100 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  2 09:07:04 dr100 systemd[1]: Started Cleanup of Temporary Directories.
+Oct  2 09:00:39 dr100 systemd-modules-load[86]: Inserted module 'i2c_dev'
+Oct  2 09:00:39 dr100 fake-hwclock[80]: Mon  1 Oct 08:17:01 UTC 2018
+Oct  2 09:00:39 dr100 systemd-fsck[89]: e2fsck 1.43.4 (31-Jan-2017)
+Oct  2 09:00:39 dr100 systemd[1]: Started Create Static Device Nodes in /dev.
+Oct  2 09:00:39 dr100 systemd[1]: Starting udev Kernel Device Manager...
+Oct  2 09:00:39 dr100 systemd-fsck[89]: rootfs: clean, 189458/1926848 files, 1530164/7779456 blocks
+Oct  2 09:00:39 dr100 systemd[1]: Started File System Check on Root Device.
+Oct  2 09:00:39 dr100 systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct  2 09:00:39 dr100 systemd[1]: Started Remount Root and Kernel File Systems.
+Oct  2 09:00:39 dr100 systemd[1]: Starting Load/Save Random Seed...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  2 09:00:39 dr100 systemd[1]: Starting udev Coldplug all Devices...
+Oct  2 09:00:39 dr100 systemd[1]: Started Load/Save Random Seed.
+Oct  2 09:00:39 dr100 systemd[1]: Started Flush Journal to Persistent Storage.
+Oct  2 09:00:39 dr100 systemd[1]: Started udev Kernel Device Manager.
+Oct  2 09:00:39 dr100 systemd[1]: Started Set the console keyboard layout.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Local File Systems (Pre).
+Oct  2 09:00:39 dr100 systemd[1]: Started udev Coldplug all Devices.
+Oct  2 09:00:39 dr100 systemd[1]: Starting Show Plymouth Boot Screen...
+Oct  2 09:00:39 dr100 systemd[1]: Started Show Plymouth Boot Screen.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Encrypted Volumes.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Paths.
+Oct  2 09:00:39 dr100 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Oct  2 09:00:39 dr100 mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1"
+Oct  2 09:00:39 dr100 systemd[1]: Found device /dev/disk/by-partuuid/422de1a7-01.
+Oct  2 09:00:39 dr100 systemd[1]: Starting File System Check on /dev/disk/by-partuuid/422de1a7-01...
+Oct  2 09:00:39 dr100 mtp-probe: bus: 1, device: 4 was not an MTP device
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Sound Card.
+Oct  2 09:00:39 dr100 systemd-fsck[226]: fsck.fat 4.1 (2017-01-24)
+Oct  2 09:00:39 dr100 systemd-fsck[226]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Oct  2 09:00:39 dr100 systemd-fsck[226]:  Automatically removing dirty bit.
+Oct  2 09:00:39 dr100 systemd-fsck[226]: Performing changes.
+Oct  2 09:00:39 dr100 systemd-fsck[226]: /dev/mmcblk0p1: 167 files, 44386/87078 clusters
+Oct  2 09:00:39 dr100 systemd[1]: Started File System Check on /dev/disk/by-partuuid/422de1a7-01.
+Oct  2 09:00:39 dr100 systemd[1]: Mounting /boot...
+Oct  2 09:00:39 dr100 systemd[1]: Mounted /boot.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Local File Systems.
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Linux version 4.14.50-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1122 SMP Tue Jun 19 12:26:26 BST 2018
+Oct  2 09:00:39 dr100 systemd[1]: Starting Create Volatile Files and Directories...
+Oct  2 09:00:39 dr100 kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Oct  2 09:00:39 dr100 kernel: [    0.000000] CPU: div instructions available: patching division code
+Oct  2 09:00:39 dr100 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Oct  2 09:00:39 dr100 kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 3 Model B Plus Rev 1.3
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Memory policy: Data cache writealloc
+Oct  2 09:00:39 dr100 kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Oct  2 09:00:39 dr100 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  2 09:00:39 dr100 kernel: [    0.000000] On node 0 totalpages: 242688
+Oct  2 09:00:39 dr100 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c85000, node_mem_map ba3a1000
+Oct  2 09:00:39 dr100 systemd[1]: Starting Set console font and keymap...
+Oct  2 09:00:39 dr100 kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Oct  2 09:00:39 dr100 systemd[1]: Starting Preprocess NFS configuration...
+Oct  2 09:00:39 dr100 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Oct  2 09:00:39 dr100 kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Oct  2 09:00:39 dr100 systemd[1]: Starting Raise network interfaces...
+Oct  2 09:00:39 dr100 kernel: [    0.000000] percpu: Embedded 17 pages/cpu @ba34a000 s38720 r8192 d22720 u69632
+Oct  2 09:00:39 dr100 kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Oct  2 09:00:39 dr100 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 240555
+Oct  2 09:00:39 dr100 systemd[1]: Started Preprocess NFS configuration.
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 root=PARTUUID=422de1a7-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+Oct  2 09:00:39 dr100 kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct  2 09:00:39 dr100 systemd[1]: Started Set console font and keymap.
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Memory: 940236K/970752K available (7168K kernel code, 575K rwdata, 2072K rodata, 1024K init, 706K bss, 22324K reserved, 8192K cma-reserved)
+Oct  2 09:00:39 dr100 systemd[1]: Reached target NFS client services.
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Virtual kernel memory layout:
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Remote File Systems (Pre).
+Oct  2 09:00:39 dr100 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Remote File Systems.
+Oct  2 09:00:39 dr100 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Oct  2 09:00:39 dr100 kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Oct  2 09:00:39 dr100 kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Oct  2 09:00:39 dr100 systemd[1]: Started Create Volatile Files and Directories.
+Oct  2 09:00:39 dr100 kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Oct  2 09:00:39 dr100 kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Oct  2 09:00:39 dr100 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct  2 09:00:39 dr100 kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Oct  2 09:00:39 dr100 kernel: [    0.000000]       .data : 0x80c00000 - 0x80c8fef4   ( 576 kB)
+Oct  2 09:00:39 dr100 kernel: [    0.000000]        .bss : 0x80c96f40 - 0x80d478b4   ( 707 kB)
+Oct  2 09:00:39 dr100 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Oct  2 09:00:39 dr100 kernel: [    0.000000] ftrace: allocating 25253 entries in 75 pages
+Oct  2 09:00:39 dr100 kernel: [    0.000000] Hierarchical RCU implementation.
+Oct  2 09:00:39 dr100 kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Oct  2 09:00:39 dr100 kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Oct  2 09:00:39 dr100 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Oct  2 09:00:39 dr100 kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Oct  2 09:00:39 dr100 kernel: [    0.000018] Switching to timer-based delay loop, resolution 52ns
+Oct  2 09:00:39 dr100 kernel: [    0.000262] Console: colour dummy device 80x30
+Oct  2 09:00:39 dr100 kernel: [    0.000279] console [tty1] enabled
+Oct  2 09:00:39 dr100 kernel: [    0.000306] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Oct  2 09:00:39 dr100 kernel: [    0.000322] pid_max: default: 32768 minimum: 301
+Oct  2 09:00:39 dr100 kernel: [    0.000639] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.000653] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.001586] Disabling memory control group subsystem
+Oct  2 09:00:39 dr100 kernel: [    0.001666] CPU: Testing write buffer coherency: ok
+Oct  2 09:00:39 dr100 kernel: [    0.002061] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Oct  2 09:00:39 dr100 kernel: [    0.002439] Setting up static identity map for 0x100000 - 0x10003c
+Oct  2 09:00:39 dr100 kernel: [    0.002556] Hierarchical SRCU implementation.
+Oct  2 09:00:39 dr100 kernel: [    0.003188] smp: Bringing up secondary CPUs ...
+Oct  2 09:00:39 dr100 kernel: [    0.003870] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Oct  2 09:00:39 dr100 kernel: [    0.004613] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Oct  2 09:00:39 dr100 kernel: [    0.005339] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Oct  2 09:00:39 dr100 kernel: [    0.005443] smp: Brought up 1 node, 4 CPUs
+Oct  2 09:00:39 dr100 kernel: [    0.005454] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Oct  2 09:00:39 dr100 kernel: [    0.005459] CPU: All CPU(s) started in HYP mode.
+Oct  2 09:00:39 dr100 kernel: [    0.005463] CPU: Virtualization extensions available.
+Oct  2 09:00:39 dr100 kernel: [    0.006314] devtmpfs: initialized
+Oct  2 09:00:39 dr100 kernel: [    0.016210] random: get_random_u32 called from bucket_table_alloc+0xfc/0x24c with crng_init=0
+Oct  2 09:00:39 dr100 kernel: [    0.016938] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Oct  2 09:00:39 dr100 kernel: [    0.017158] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Oct  2 09:00:39 dr100 kernel: [    0.017175] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.017735] pinctrl core: initialized pinctrl subsystem
+Oct  2 09:00:39 dr100 kernel: [    0.018471] NET: Registered protocol family 16
+Oct  2 09:00:39 dr100 kernel: [    0.021155] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Oct  2 09:00:39 dr100 kernel: [    0.025997] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Oct  2 09:00:39 dr100 kernel: [    0.026005] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Oct  2 09:00:39 dr100 kernel: [    0.026215] Serial: AMBA PL011 UART driver
+Oct  2 09:00:39 dr100 kernel: [    0.027828] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Oct  2 09:00:39 dr100 kernel: [    0.028282] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Oct  2 09:00:39 dr100 kernel: [    0.059367] bcm2835-dma 3f007000.dma: DMA legacy API manager at bb813000, dmachans=0x1
+Oct  2 09:00:39 dr100 kernel: [    0.060878] SCSI subsystem initialized
+Oct  2 09:00:39 dr100 kernel: [    0.061101] usbcore: registered new interface driver usbfs
+Oct  2 09:00:39 dr100 kernel: [    0.061152] usbcore: registered new interface driver hub
+Oct  2 09:00:39 dr100 kernel: [    0.061235] usbcore: registered new device driver usb
+Oct  2 09:00:39 dr100 kernel: [    0.070090] raspberrypi-firmware soc:firmware: Attached to firmware from 2018-06-07 15:31
+Oct  2 09:00:39 dr100 kernel: [    0.071464] clocksource: Switched to clocksource arch_sys_counter
+Oct  2 09:00:39 dr100 kernel: [    0.148468] VFS: Disk quotas dquot_6.6.0
+Oct  2 09:00:39 dr100 kernel: [    0.148552] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.148738] FS-Cache: Loaded
+Oct  2 09:00:39 dr100 kernel: [    0.148935] CacheFiles: Loaded
+Oct  2 09:00:39 dr100 kernel: [    0.157696] NET: Registered protocol family 2
+Oct  2 09:00:39 dr100 kernel: [    0.158414] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.158524] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.158709] TCP: Hash tables configured (established 8192 bind 8192)
+Oct  2 09:00:39 dr100 kernel: [    0.158837] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.158881] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 09:00:39 dr100 kernel: [    0.159108] NET: Registered protocol family 1
+Oct  2 09:00:39 dr100 kernel: [    0.159539] RPC: Registered named UNIX socket transport module.
+Oct  2 09:00:39 dr100 kernel: [    0.159545] RPC: Registered udp transport module.
+Oct  2 09:00:39 dr100 kernel: [    0.159550] RPC: Registered tcp transport module.
+Oct  2 09:00:39 dr100 kernel: [    0.159555] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct  2 09:00:39 dr100 kernel: [    0.161035] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Oct  2 09:00:39 dr100 kernel: [    0.163843] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Oct  2 09:00:39 dr100 kernel: [    0.171795] FS-Cache: Netfs 'nfs' registered for caching
+Oct  2 09:00:39 dr100 kernel: [    0.172385] NFS: Registering the id_resolver key type
+Oct  2 09:00:39 dr100 systemd[1]: Starting Network Time Synchronization...
+Oct  2 09:00:39 dr100 kernel: [    0.172421] Key type id_resolver registered
+Oct  2 09:00:39 dr100 kernel: [    0.172426] Key type id_legacy registered
+Oct  2 09:00:39 dr100 kernel: [    0.172441] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Oct  2 09:00:39 dr100 kernel: [    0.174308] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Oct  2 09:00:39 dr100 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct  2 09:00:39 dr100 kernel: [    0.174428] io scheduler noop registered
+Oct  2 09:00:39 dr100 kernel: [    0.174435] io scheduler deadline registered (default)
+Oct  2 09:00:39 dr100 kernel: [    0.174707] io scheduler cfq registered
+Oct  2 09:00:39 dr100 kernel: [    0.174714] io scheduler mq-deadline registered
+Oct  2 09:00:39 dr100 systemd-timesyncd[260]: System clock time unset or jumped backwards, restoring from recorded timestamp: Tue 2018-10-02 09:00:38 KST
+Oct  2 09:00:39 dr100 kernel: [    0.174720] io scheduler kyber registered
+Oct  2 09:00:39 dr100 kernel: [    0.176946] BCM2708FB: allocated DMA memory fad00000
+Oct  2 09:00:39 dr100 systemd[1]: Time has been changed
+Oct  2 09:00:39 dr100 kernel: [    0.176971] BCM2708FB: allocated DMA channel 0 @ bb813000
+Oct  2 09:00:39 dr100 kernel: [    0.185504] Console: switching to colour frame buffer device 82x26
+Oct  2 09:00:39 dr100 kernel: [    0.190626] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Oct  2 09:00:39 dr100 systemd[1]: Started Network Time Synchronization.
+Oct  2 09:00:39 dr100 kernel: [    0.191842] bcm2835-rng 3f104000.rng: hwrng registered
+Oct  2 09:00:39 dr100 systemd[1]: Reached target System Time Synchronized.
+Oct  2 09:00:39 dr100 systemd[1]: Received SIGRTMIN+20 from PID 198 (plymouthd).
+Oct  2 09:00:39 dr100 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target System Initialization.
+Oct  2 09:00:39 dr100 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  2 09:00:39 dr100 systemd[1]: apt-daily.timer: Adding 8h 51min 52.511862s random time.
+Oct  2 09:00:39 dr100 systemd[1]: Started Daily apt download activities.
+Oct  2 09:00:39 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 56min 4.728689s random time.
+Oct  2 09:00:39 dr100 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  2 09:00:39 dr100 systemd[1]: Listening on triggerhappy.socket.
+Oct  2 09:00:39 dr100 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Timers.
+Oct  2 09:00:39 dr100 systemd[1]: Listening on GPS (Global Positioning System) Daemon Sockets.
+Oct  2 09:00:39 dr100 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Sockets.
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Basic System.
+Oct  2 09:00:39 dr100 systemd[1]: Starting System Logging Service...
+Oct  2 09:00:39 dr100 systemd[1]: Starting triggerhappy global hotkey daemon...
+Oct  2 09:00:39 dr100 systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Disable WiFi if country not set...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Check for v3d driver...
+Oct  2 09:00:39 dr100 systemd[1]: Started D-Bus System Message Bus.
+Oct  2 09:00:39 dr100 ifup[262]: /bin/sh: 1: cannot create /sys/class/net/wwan0/qmi/raw_ip: Directory nonexistent
+Oct  2 09:00:39 dr100 ifup[262]: ifup: failed to bring up wwan0
+Oct  2 09:00:39 dr100 ifup[262]: /bin/sh: 1: cannot create /sys/class/net/wwan1/qmi/raw_ip: Directory nonexistent
+Oct  2 09:00:39 dr100 ifup[262]: ifup: failed to bring up wwan1
+Oct  2 09:00:39 dr100 ifup[262]: /bin/sh: 1: cannot create /sys/class/net/wwan2/qmi/raw_ip: Directory nonexistent
+Oct  2 09:00:39 dr100 ifup[262]: ifup: failed to bring up wwan2
+Oct  2 09:00:39 dr100 thd[303]: Found socket passed from systemd
+Oct  2 09:00:39 dr100 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="302" x-info="http://www.rsyslog.com"] start
+Oct  2 09:00:39 dr100 kernel: [    0.191963] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Oct  2 09:00:39 dr100 kernel: [    0.192416] vc-sm: Videocore shared memory driver
+Oct  2 09:00:39 dr100 kernel: [    0.192682] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Oct  2 09:00:39 dr100 kernel: [    0.202162] brd: module loaded
+Oct  2 09:00:39 dr100 kernel: [    0.210703] loop: module loaded
+Oct  2 09:00:39 dr100 kernel: [    0.210716] Loading iSCSI transport class v2.0-870.
+Oct  2 09:00:39 dr100 kernel: [    0.211340] libphy: Fixed MDIO Bus: probed
+Oct  2 09:00:39 dr100 kernel: [    0.211437] usbcore: registered new interface driver lan78xx
+Oct  2 09:00:39 dr100 kernel: [    0.211580] usbcore: registered new interface driver smsc95xx
+Oct  2 09:00:39 dr100 kernel: [    0.211595] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Oct  2 09:00:39 dr100 kernel: [    0.439672] Core Release: 2.80a
+Oct  2 09:00:39 dr100 kernel: [    0.439680] Setting default values for core params
+Oct  2 09:00:39 dr100 kernel: [    0.439711] Finished setting default values for core params
+Oct  2 09:00:39 dr100 kernel: [    0.639950] Using Buffer DMA mode
+Oct  2 09:00:39 dr100 kernel: [    0.639957] Periodic Transfer Interrupt Enhancement - disabled
+Oct  2 09:00:39 dr100 kernel: [    0.639961] Multiprocessor Interrupt Enhancement - disabled
+Oct  2 09:00:39 dr100 kernel: [    0.639968] OTG VER PARAM: 0, OTG VER FLAG: 0
+Oct  2 09:00:39 dr100 kernel: [    0.639982] Dedicated Tx FIFOs mode
+Oct  2 09:00:39 dr100 kernel: [    0.640375] WARN::dwc_otg_hcd_init:1046: FIQ DMA bounce buffers: virt = 0xbad14000 dma = 0xfad14000 len=9024
+Oct  2 09:00:39 dr100 kernel: [    0.640399] FIQ FSM acceleration enabled for :
+Oct  2 09:00:39 dr100 kernel: [    0.640399] Non-periodic Split Transactions
+Oct  2 09:00:39 dr100 kernel: [    0.640399] Periodic Split Transactions
+Oct  2 09:00:39 dr100 kernel: [    0.640399] High-Speed Isochronous Endpoints
+Oct  2 09:00:39 dr100 kernel: [    0.640399] Interrupt/Control Split Transaction hack enabled
+Oct  2 09:00:39 dr100 kernel: [    0.640406] dwc_otg: Microframe scheduler enabled
+Oct  2 09:00:39 dr100 kernel: [    0.640459] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x805e7d20
+Oct  2 09:00:39 dr100 kernel: [    0.640470] WARN::hcd_init_fiq:460: FIQ ASM at 0x805e8088 length 36
+Oct  2 09:00:39 dr100 kernel: [    0.640482] WARN::hcd_init_fiq:486: MPHI regs_base at 0xbb87e000
+Oct  2 09:00:39 dr100 kernel: [    0.640538] dwc_otg 3f980000.usb: DWC OTG Controller
+Oct  2 09:00:39 dr100 kernel: [    0.640569] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Oct  2 09:00:39 dr100 kernel: [    0.640600] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Oct  2 09:00:39 dr100 kernel: [    0.640646] Init: Port Power? op_state=1
+Oct  2 09:00:39 dr100 kernel: [    0.640651] Init: Power Port (0)
+Oct  2 09:00:39 dr100 kernel: [    0.640853] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Oct  2 09:00:39 dr100 kernel: [    0.640864] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct  2 09:00:39 dr100 kernel: [    0.640872] usb usb1: Product: DWC OTG Controller
+Oct  2 09:00:39 dr100 kernel: [    0.640880] usb usb1: Manufacturer: Linux 4.14.50-v7+ dwc_otg_hcd
+Oct  2 09:00:39 dr100 kernel: [    0.640888] usb usb1: SerialNumber: 3f980000.usb
+Oct  2 09:00:39 dr100 kernel: [    0.641504] hub 1-0:1.0: USB hub found
+Oct  2 09:00:39 dr100 kernel: [    0.641550] hub 1-0:1.0: 1 port detected
+Oct  2 09:00:39 dr100 kernel: [    0.642043] dwc_otg: FIQ enabled
+Oct  2 09:00:39 dr100 kernel: [    0.642048] dwc_otg: NAK holdoff enabled
+Oct  2 09:00:39 dr100 kernel: [    0.642053] dwc_otg: FIQ split-transaction FSM enabled
+Oct  2 09:00:39 dr100 kernel: [    0.642062] Module dwc_common_port init
+Oct  2 09:00:39 dr100 kernel: [    0.642268] usbcore: registered new interface driver usb-storage
+Oct  2 09:00:39 dr100 kernel: [    0.642437] mousedev: PS/2 mouse device common for all mice
+Oct  2 09:00:39 dr100 kernel: [    0.642504] IR NEC protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642510] IR RC5(x/sz) protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642515] IR RC6 protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642519] IR JVC protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642525] IR Sony protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642529] IR SANYO protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642534] IR Sharp protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642540] IR MCE Keyboard/mouse protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.642545] IR XMP protocol handler initialized
+Oct  2 09:00:39 dr100 kernel: [    0.643186] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Oct  2 09:00:39 dr100 kernel: [    0.644130] bcm2835-cpufreq: min=600000 max=1400000
+Oct  2 09:00:39 dr100 kernel: [    0.644463] sdhci: Secure Digital Host Controller Interface driver
+Oct  2 09:00:39 dr100 kernel: [    0.644467] sdhci: Copyright(c) Pierre Ossman
+Oct  2 09:00:39 dr100 kernel: [    0.644805] sdhost-bcm2835 3f202000.mmc: could not get clk, deferring probe
+Oct  2 09:00:39 dr100 kernel: [    0.644898] sdhci-pltfm: SDHCI platform and OF driver helper
+Oct  2 09:00:39 dr100 kernel: [    0.646270] ledtrig-cpu: registered to indicate activity on CPUs
+Oct  2 09:00:39 dr100 kernel: [    0.646414] hidraw: raw HID events driver (C) Jiri Kosina
+Oct  2 09:00:39 dr100 kernel: [    0.646586] usbcore: registered new interface driver usbhid
+Oct  2 09:00:39 dr100 kernel: [    0.646591] usbhid: USB HID core driver
+Oct  2 09:00:39 dr100 kernel: [    0.647161] vchiq: vchiq_init_state: slot_zero = bad80000, is_master = 0
+Oct  2 09:00:39 dr100 kernel: [    0.648488] [vc_sm_connected_init]: start
+Oct  2 09:00:39 dr100 kernel: [    0.657130] [vc_sm_connected_init]: end - returning 0
+Oct  2 09:00:39 dr100 kernel: [    0.657681] Initializing XFRM netlink socket
+Oct  2 09:00:39 dr100 kernel: [    0.657704] NET: Registered protocol family 17
+Oct  2 09:00:39 dr100 kernel: [    0.657799] Key type dns_resolver registered
+Oct  2 09:00:39 dr100 kernel: [    0.658304] Registering SWP/SWPB emulation handler
+Oct  2 09:00:39 dr100 kernel: [    0.658872] registered taskstats version 1
+Oct  2 09:00:39 dr100 kernel: [    0.664633] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Oct  2 09:00:39 dr100 kernel: [    0.664704] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Oct  2 09:00:39 dr100 kernel: [    0.666532] sdhost: log_buf @ bad13000 (fad13000)
+Oct  2 09:00:39 dr100 kernel: [    0.741491] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Oct  2 09:00:39 dr100 kernel: [    0.742453] of_cfs_init
+Oct  2 09:00:39 dr100 kernel: [    0.742550] of_cfs_init: OK
+Oct  2 09:00:39 dr100 kernel: [    0.743069] Waiting for root device PARTUUID=422de1a7-02...
+Oct  2 09:00:39 dr100 kernel: [    0.871554] Indeed it is in host mode hprt0 = 00021501
+Oct  2 09:00:39 dr100 kernel: [    0.931606] mmc0: host does not support reading read-only switch, assuming write-enable
+Oct  2 09:00:39 dr100 kernel: [    0.937578] mmc0: new high speed SDHC card at address aaaa
+Oct  2 09:00:39 dr100 kernel: [    0.938108] mmcblk0: mmc0:aaaa SB32G 29.7 GiB
+Oct  2 09:00:39 dr100 kernel: [    0.940440]  mmcblk0: p1 p2
+Oct  2 09:00:39 dr100 kernel: [    0.959470] random: fast init done
+Oct  2 09:00:39 dr100 kernel: [    0.965515] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Oct  2 09:00:39 dr100 kernel: [    0.965522] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Oct  2 09:00:39 dr100 kernel: [    1.081497] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Oct  2 09:00:39 dr100 kernel: [    1.081627] Indeed it is in host mode hprt0 = 00001101
+Oct  2 09:00:39 dr100 kernel: [    1.321755] usb 1-1: New USB device found, idVendor=0424, idProduct=2514
+Oct  2 09:00:39 dr100 kernel: [    1.321767] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:00:39 dr100 kernel: [    1.322375] hub 1-1:1.0: USB hub found
+Oct  2 09:00:39 dr100 kernel: [    1.322474] hub 1-1:1.0: 4 ports detected
+Oct  2 09:00:39 dr100 kernel: [    1.641500] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Oct  2 09:00:39 dr100 kernel: [    1.771734] usb 1-1.1: New USB device found, idVendor=0424, idProduct=2514
+Oct  2 09:00:39 dr100 kernel: [    1.771746] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:00:39 dr100 kernel: [    1.772350] hub 1-1.1:1.0: USB hub found
+Oct  2 09:00:39 dr100 kernel: [    1.772433] hub 1-1.1:1.0: 3 ports detected
+Oct  2 09:00:39 dr100 kernel: [    1.781411] EXT4-fs (mmcblk0p2): orphan cleanup on readonly fs
+Oct  2 09:00:39 dr100 kernel: [    1.781859] EXT4-fs (mmcblk0p2): 3 orphan inodes deleted
+Oct  2 09:00:39 dr100 kernel: [    1.781866] EXT4-fs (mmcblk0p2): recovery complete
+Oct  2 09:00:39 dr100 kernel: [    1.817240] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Oct  2 09:00:39 dr100 kernel: [    1.817297] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Oct  2 09:00:39 dr100 kernel: [    1.826224] devtmpfs: mounted
+Oct  2 09:00:39 dr100 kernel: [    1.829216] Freeing unused kernel memory: 1024K
+Oct  2 09:00:39 dr100 kernel: [    2.125189] dwc_otg_handle_wakeup_detected_intr lxstate = 2
+Oct  2 09:00:39 dr100 kernel: [    2.334664] NET: Registered protocol family 10
+Oct  2 09:00:39 dr100 kernel: [    2.335806] Segment Routing with IPv6
+Oct  2 09:00:39 dr100 kernel: [    2.346916] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct  2 09:00:39 dr100 kernel: [    2.363915] random: systemd: uninitialized urandom read (16 bytes read)
+Oct  2 09:00:39 dr100 kernel: [    2.415677] random: systemd: uninitialized urandom read (16 bytes read)
+Oct  2 09:00:39 dr100 kernel: [    2.430931] random: systemd-cryptse: uninitialized urandom read (16 bytes read)
+Oct  2 09:00:39 dr100 kernel: [    2.581516] usb 1-1.1.1: new high-speed USB device number 4 using dwc_otg
+Oct  2 09:00:39 dr100 kernel: [    2.711966] usb 1-1.1.1: New USB device found, idVendor=0424, idProduct=7800
+Oct  2 09:00:39 dr100 kernel: [    2.711981] usb 1-1.1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:00:39 dr100 kernel: [    2.943177] i2c /dev entries driver
+Oct  2 09:00:39 dr100 kernel: [    3.002495] libphy: lan78xx-mdiobus: probed
+Oct  2 09:00:39 dr100 kernel: [    3.397913] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Oct  2 09:00:39 dr100 kernel: [    4.017403] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Oct  2 09:00:39 dr100 kernel: [    4.022247] bcm2835_alsa bcm2835_alsa: card created with 8 channels
+Oct  2 09:00:39 dr100 wifi-country[305]: Wi-Fi is disabled because the country is not set
+Oct  2 09:00:39 dr100 systemd[1]: Started Regular background program processing daemon.
+Oct  2 09:00:39 dr100 cron[343]: (CRON) INFO (pidfile fd = 3)
+Oct  2 09:00:39 dr100 systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Oct  2 09:00:39 dr100 systemd[1]: Starting dhcpcd on all interfaces...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Save/Restore Sound Card State...
+Oct  2 09:00:39 dr100 cron[343]: (CRON) INFO (Running @reboot jobs)
+Oct  2 09:00:39 dr100 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Login Service...
+Oct  2 09:00:39 dr100 systemd[1]: Started BluezALSA proxy.
+Oct  2 09:00:39 dr100 systemd[1]: Started triggerhappy global hotkey daemon.
+Oct  2 09:00:39 dr100 systemd[1]: Started System Logging Service.
+Oct  2 09:00:39 dr100 systemd[1]: Started Disable WiFi if country not set.
+Oct  2 09:00:39 dr100 systemd[1]: Started Check for v3d driver.
+Oct  2 09:00:39 dr100 systemd[1]: Started Save/Restore Sound Card State.
+Oct  2 09:00:39 dr100 dhcpcd[345]: dev: loaded udev
+Oct  2 09:00:39 dr100 avahi-daemon[347]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Oct  2 09:00:39 dr100 avahi-daemon[347]: Successfully dropped root privileges.
+Oct  2 09:00:39 dr100 avahi-daemon[347]: avahi-daemon 0.6.32 starting up.
+Oct  2 09:00:39 dr100 avahi-daemon[347]: Successfully called chroot().
+Oct  2 09:00:39 dr100 avahi-daemon[347]: Successfully dropped remaining capabilities.
+Oct  2 09:00:39 dr100 dphys-swapfile[304]: Starting dphys-swapfile swapfile setup ...
+Oct  2 09:00:39 dr100 avahi-daemon[347]: No service file found in /etc/avahi/services.
+Oct  2 09:00:39 dr100 avahi-daemon[347]: Network interface enumeration completed.
+Oct  2 09:00:39 dr100 avahi-daemon[347]: Server startup complete. Host name is dr100.local. Local service cookie is 3535304294.
+Oct  2 09:00:39 dr100 dhcpcd[345]: forked to background, child pid 368
+Oct  2 09:00:39 dr100 bluealsa[350]: /usr/bin/bluealsa: No HCI device available
+Oct  2 09:00:39 dr100 kernel: [    6.033833] Bluetooth: Core ver 2.22
+Oct  2 09:00:39 dr100 kernel: [    6.033917] NET: Registered protocol family 31
+Oct  2 09:00:39 dr100 kernel: [    6.033924] Bluetooth: HCI device and connection manager initialized
+Oct  2 09:00:39 dr100 kernel: [    6.033944] Bluetooth: HCI socket layer initialized
+Oct  2 09:00:39 dr100 kernel: [    6.033958] Bluetooth: L2CAP socket layer initialized
+Oct  2 09:00:39 dr100 kernel: [    6.033993] Bluetooth: SCO socket layer initialized
+Oct  2 09:00:39 dr100 systemd[1]: Started dhcpcd on all interfaces.
+Oct  2 09:00:39 dr100 systemd[1]: bluealsa.service: Main process exited, code=exited, status=1/FAILURE
+Oct  2 09:00:39 dr100 systemd[1]: bluealsa.service: Unit entered failed state.
+Oct  2 09:00:39 dr100 systemd[1]: bluealsa.service: Failed with result 'exit-code'.
+Oct  2 09:00:39 dr100 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Oct  2 09:00:39 dr100 systemd[1]: Started Login Service.
+Oct  2 09:00:39 dr100 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  2 09:00:39 dr100 raspi-config[344]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Oct  2 09:00:39 dr100 raspi-config[344]:  No. Switching to ondemand scaling governor.
+Oct  2 09:00:39 dr100 dhcpcd[368]: eth0: waiting for carrier
+Oct  2 09:00:39 dr100 kernel: [    6.113602] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct  2 09:00:39 dr100 systemd[1]: networking.service: Main process exited, code=exited, status=1/FAILURE
+Oct  2 09:00:39 dr100 systemd[1]: Failed to start Raise network interfaces.
+Oct  2 09:00:39 dr100 systemd[1]: networking.service: Unit entered failed state.
+Oct  2 09:00:39 dr100 systemd[1]: networking.service: Failed with result 'exit-code'.
+Oct  2 09:00:39 dr100 systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Oct  2 09:00:39 dr100 systemd[1]: Reached target Network.
+Oct  2 09:00:39 dr100 systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  2 09:00:39 dr100 dphys-swapfile[304]: want /var/swap=100MByte, checking existing: keeping it
+Oct  2 09:00:39 dr100 systemd[1]: Starting Permit User Sessions...
+Oct  2 09:00:39 dr100 systemd[1]: Starting /etc/rc.local Compatibility...
+Oct  2 09:00:39 dr100 systemd[1]: Starting LSB: Start/stop fluentd...
+Oct  2 09:00:39 dr100 systemd[1]: Started Permit User Sessions.
+Oct  2 09:00:39 dr100 systemd[1]: Started /etc/rc.local Compatibility.
+Oct  2 09:00:39 dr100 systemd[1]: Starting Hold until boot process finishes up...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Light Display Manager...
+Oct  2 09:00:39 dr100 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  2 09:00:39 dr100 kernel: [    6.219681] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+Oct  2 09:00:39 dr100 dphys-swapfile[304]: done.
+Oct  2 09:00:39 dr100 systemd[1]: Received SIGRTMIN+21 from PID 198 (plymouthd).
+Oct  2 09:00:39 dr100 systemd[1]: Started LSB: Autogenerate and use a swap file.
+Oct  2 09:00:40 dr100 systemd[1]: Started Hold until boot process finishes up.
+Oct  2 09:00:40 dr100 systemd[1]: Started Terminate Plymouth Boot Screen.
+Oct  2 09:00:40 dr100 systemd[1]: Started Getty on tty1.
+Oct  2 09:00:40 dr100 systemd[1]: Reached target Login Prompts.
+Oct  2 09:00:40 dr100 fluentd[404]: Starting Start/stop fluentd :/home/pi/msense-qmi/fluentd/td/gps.pos
+Oct  2 09:00:40 dr100 fluentd[404]: /home/pi/msense-qmi/data/gps.json, 2636569, 259485
+Oct  2 09:00:40 dr100 fluentd[404]: 2636824, 259485
+Oct  2 09:00:40 dr100 fluentd[404]:  ok./home/pi/msense-qmi/fluentd/td/modem_0.pos
+Oct  2 09:00:40 dr100 fluentd[404]: /home/pi/msense-qmi/data/modem_0.json, 31867094, 259482
+Oct  2 09:00:40 dr100 fluentd[404]: 31870976, 259482
+Oct  2 09:00:40 dr100 fluentd[404]:  ok./home/pi/msense-qmi/fluentd/td/modem_1.pos
+Oct  2 09:00:40 dr100 fluentd[404]: /home/pi/msense-qmi/data/modem_1.json, 30345304, 259468
+Oct  2 09:00:40 dr100 fluentd[404]: 30345304, 259468
+Oct  2 09:00:40 dr100 fluentd[404]:  ok./home/pi/msense-qmi/fluentd/td/modem_2.pos
+Oct  2 09:00:40 dr100 fluentd[404]: /home/pi/msense-qmi/data/modem_2.json, 33073869, 259467
+Oct  2 09:00:40 dr100 fluentd[404]: 33073869, 259467
+Oct  2 09:00:40 dr100 fluentd[404]:  ok./home/pi/msense-qmi/fluentd/td/speedtest.pos
+Oct  2 09:00:40 dr100 fluentd[404]: /home/pi/msense-qmi/data/speedtest.json, 26314569, 259483
+Oct  2 09:00:40 dr100 fluentd[404]: 26316800, 259483
+Oct  2 09:00:40 dr100 fluentd[404]:  ok. fluentd.
+Oct  2 09:00:40 dr100 systemd[1]: Started LSB: Start/stop fluentd.
+Oct  2 09:00:40 dr100 systemd[1]: Started OpenBSD Secure Shell server.
+Oct  2 09:00:40 dr100 systemd[1]: Reached target Multi-User System.
+Oct  2 09:00:40 dr100 lightdm[423]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Oct  2 09:00:40 dr100 systemd[1]: Started Light Display Manager.
+Oct  2 09:00:40 dr100 systemd[1]: Reached target Graphical Interface.
+Oct  2 09:00:40 dr100 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct  2 09:00:40 dr100 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct  2 09:00:40 dr100 systemd[1]: Startup finished in 2.158s (kernel) + 4.697s (userspace) = 6.855s.
+Oct  2 09:00:40 dr100 kernel: [    7.023011] random: crng init done
+Oct  2 09:00:40 dr100 kernel: [    7.023018] random: 7 urandom warning(s) missed due to ratelimiting
+Oct  2 09:00:40 dr100 systemd[1]: Created slice User Slice of pi.
+Oct  2 09:00:40 dr100 systemd[1]: Starting User Manager for UID 1000...
+Oct  2 09:00:40 dr100 systemd[1]: Started Session c1 of user pi.
+Oct  2 09:00:40 dr100 systemd[514]: Reached target Paths.
+Oct  2 09:00:40 dr100 systemd[514]: Listening on GnuPG cryptographic agent (access for web browsers).
+Oct  2 09:00:40 dr100 systemd[514]: Reached target Timers.
+Oct  2 09:00:40 dr100 systemd[514]: Starting D-Bus User Message Bus Socket.
+Oct  2 09:00:40 dr100 systemd[514]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  2 09:00:40 dr100 systemd[514]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  2 09:00:40 dr100 systemd[514]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  2 09:00:40 dr100 systemd[514]: Listening on D-Bus User Message Bus Socket.
+Oct  2 09:00:40 dr100 systemd[514]: Reached target Sockets.
+Oct  2 09:00:40 dr100 systemd[514]: Reached target Basic System.
+Oct  2 09:00:40 dr100 systemd[514]: Reached target Default.
+Oct  2 09:00:40 dr100 systemd[514]: Startup finished in 98ms.
+Oct  2 09:00:40 dr100 systemd[1]: Started User Manager for UID 1000.
+Oct  2 09:00:42 dr100 lightdm[558]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Oct  2 09:00:42 dr100 systemd[1]: Started Session c2 of user pi.
+Oct  2 09:00:42 dr100 lightdm[423]: Error opening audit socket: Protocol not supported
+Oct  2 09:00:42 dr100 systemd[514]: Started D-Bus User Message Bus.
+Oct  2 09:00:42 dr100 dbus-daemon[576]: Successfully activated service 'org.freedesktop.systemd1'
+Oct  2 09:00:44 dr100 dbus-daemon[576]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+Oct  2 09:00:44 dr100 systemd[514]: Starting Virtual filesystem service...
+Oct  2 09:00:44 dr100 dbus-daemon[576]: Successfully activated service 'org.gtk.vfs.Daemon'
+Oct  2 09:00:44 dr100 systemd[514]: Started Virtual filesystem service.
+Oct  2 09:00:44 dr100 kernel: [   10.680274] fuse init (API version 7.26)
+Oct  2 09:00:44 dr100 systemd[1]: Mounting FUSE Control File System...
+Oct  2 09:00:44 dr100 systemd[1]: Mounted FUSE Control File System.
+Oct  2 09:00:44 dr100 dbus[308]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service'
+Oct  2 09:00:44 dr100 systemd[1]: Starting Authorization Manager...
+Oct  2 09:00:44 dr100 polkitd[668]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct  2 09:00:44 dr100 dbus[308]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct  2 09:00:44 dr100 systemd[1]: Started Authorization Manager.
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service'
+Oct  2 09:00:45 dr100 systemd[514]: Starting Virtual filesystem service - disk device monitor...
+Oct  2 09:00:45 dr100 dbus[308]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Oct  2 09:00:45 dr100 systemd[1]: Starting Disk Manager...
+Oct  2 09:00:45 dr100 udisksd[693]: udisks daemon version 2.1.8 starting
+Oct  2 09:00:45 dr100 dbus[308]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Oct  2 09:00:45 dr100 systemd[1]: Started Disk Manager.
+Oct  2 09:00:45 dr100 udisksd[693]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Oct  2 09:00:45 dr100 systemd[514]: Started Virtual filesystem service - disk device monitor.
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+Oct  2 09:00:45 dr100 systemd[514]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Oct  2 09:00:45 dr100 gvfs-afc-volume-monitor[700]: Volume monitor alive
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Oct  2 09:00:45 dr100 systemd[514]: Started Virtual filesystem service - Apple File Conduit monitor.
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+Oct  2 09:00:45 dr100 systemd[514]: Starting Virtual filesystem service - digital camera monitor...
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Oct  2 09:00:45 dr100 systemd[514]: Started Virtual filesystem service - digital camera monitor.
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+Oct  2 09:00:45 dr100 systemd[514]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Oct  2 09:00:45 dr100 systemd[514]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Oct  2 09:00:45 dr100 dbus-daemon[576]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+Oct  2 09:00:45 dr100 systemd[514]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Oct  2 09:00:46 dr100 dbus-daemon[576]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Oct  2 09:00:46 dr100 systemd[514]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Oct  2 09:00:48 dr100 kernel: [   14.541470] usb 1-1.1.3: new high-speed USB device number 5 using dwc_otg
+Oct  2 09:00:48 dr100 kernel: [   14.681403] usb 1-1.1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:00:48 dr100 kernel: [   14.681411] usb 1-1.1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:00:48 dr100 kernel: [   14.681415] usb 1-1.1.3: Product: Android
+Oct  2 09:00:48 dr100 kernel: [   14.681418] usb 1-1.1.3: Manufacturer: Android
+Oct  2 09:00:48 dr100 mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.3"
+Oct  2 09:00:48 dr100 mtp-probe: bus: 1, device: 5 was not an MTP device
+Oct  2 09:00:48 dr100 kernel: [   14.720777] usbcore: registered new interface driver cdc_wdm
+Oct  2 09:00:48 dr100 kernel: [   14.721030] usbcore: registered new interface driver usbserial
+Oct  2 09:00:48 dr100 kernel: [   14.721069] usbcore: registered new interface driver usbserial_generic
+Oct  2 09:00:48 dr100 kernel: [   14.721105] usbserial: USB Serial support registered for generic
+Oct  2 09:00:48 dr100 kernel: [   14.734143] usbcore: registered new interface driver option
+Oct  2 09:00:48 dr100 kernel: [   14.734182] usbserial: USB Serial support registered for GSM modem (1-port)
+Oct  2 09:00:48 dr100 kernel: [   14.734472] option 1-1.1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.734671] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB0
+Oct  2 09:00:48 dr100 kernel: [   14.734834] option 1-1.1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.735003] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB1
+Oct  2 09:00:48 dr100 kernel: [   14.735152] option 1-1.1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.735291] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB2
+Oct  2 09:00:48 dr100 kernel: [   14.735426] option 1-1.1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.735559] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB3
+Oct  2 09:00:48 dr100 kernel: [   14.744961] qmi_wwan 1-1.1.3:1.4: cdc-wdm0: USB WDM device
+Oct  2 09:00:48 dr100 kernel: [   14.746451] qmi_wwan 1-1.1.3:1.4 wwan0: register 'qmi_wwan' at usb-3f980000.usb-1.1.3, WWAN/QMI device, 2a:5e:cb:9c:f7:4d
+Oct  2 09:00:48 dr100 kernel: [   14.747132] usbcore: registered new interface driver qmi_wwan
+Oct  2 09:00:48 dr100 kernel: [   14.781539] usb 1-1.3: new high-speed USB device number 6 using dwc_otg
+Oct  2 09:00:48 dr100 systemd[1]: Found device Android.
+Oct  2 09:00:48 dr100 systemd[1]: Started ifup for wwan0.
+Oct  2 09:00:48 dr100 kernel: [   14.921594] usb 1-1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:00:48 dr100 kernel: [   14.921607] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:00:48 dr100 kernel: [   14.921611] usb 1-1.3: Product: Android
+Oct  2 09:00:48 dr100 kernel: [   14.921615] usb 1-1.3: Manufacturer: Android
+Oct  2 09:00:48 dr100 kernel: [   14.923208] option 1-1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.923681] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB4
+Oct  2 09:00:48 dr100 kernel: [   14.924004] option 1-1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.924369] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB5
+Oct  2 09:00:48 dr100 kernel: [   14.924661] option 1-1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.924897] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB6
+Oct  2 09:00:48 dr100 kernel: [   14.925203] option 1-1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:00:48 dr100 kernel: [   14.925381] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB7
+Oct  2 09:00:48 dr100 kernel: [   14.926245] qmi_wwan 1-1.3:1.4: cdc-wdm1: USB WDM device
+Oct  2 09:00:48 dr100 kernel: [   14.927357] qmi_wwan 1-1.3:1.4 wwan1: register 'qmi_wwan' at usb-3f980000.usb-1.3, WWAN/QMI device, 2a:5e:cb:9c:f7:4d
+Oct  2 09:00:48 dr100 mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Oct  2 09:00:48 dr100 mtp-probe: bus: 1, device: 6 was not an MTP device
+Oct  2 09:00:48 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:00:48 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:00:48 dr100 sh[775]: wwan0=wwan0
+Oct  2 09:00:48 dr100 systemd[1]: Found device Android.
+Oct  2 09:00:48 dr100 systemd[1]: Started ifup for wwan1.
+Oct  2 09:00:49 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:00:49 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:00:49 dr100 sh[867]: wwan1=wwan1
+Oct  2 09:00:55 dr100 sh[775]: MNC 6
+Oct  2 09:00:55 dr100 sh[775]: [U+]
+Oct  2 09:00:55 dr100 sh[775]: Set Band 1
+Oct  2 09:00:56 dr100 sh[867]: MNC 6
+Oct  2 09:00:56 dr100 sh[867]: [U+]
+Oct  2 09:00:56 dr100 sh[867]: Set Band 5
+Oct  2 09:00:59 dr100 kernel: [   26.061503] usb 1-1.1.2: new high-speed USB device number 7 using dwc_otg
+Oct  2 09:00:59 dr100 kernel: [   26.201582] usb 1-1.1.2: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:00:59 dr100 kernel: [   26.201597] usb 1-1.1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:00:59 dr100 kernel: [   26.201606] usb 1-1.1.2: Product: Android
+Oct  2 09:00:59 dr100 kernel: [   26.201614] usb 1-1.1.2: Manufacturer: Android
+Oct  2 09:00:59 dr100 kernel: [   26.203233] option 1-1.1.2:1.0: GSM modem (1-port) converter detected
+Oct  2 09:00:59 dr100 kernel: [   26.203569] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB8
+Oct  2 09:00:59 dr100 kernel: [   26.204263] option 1-1.1.2:1.1: GSM modem (1-port) converter detected
+Oct  2 09:00:59 dr100 kernel: [   26.204702] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB9
+Oct  2 09:00:59 dr100 kernel: [   26.205544] option 1-1.1.2:1.2: GSM modem (1-port) converter detected
+Oct  2 09:00:59 dr100 kernel: [   26.205929] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB10
+Oct  2 09:00:59 dr100 kernel: [   26.206577] option 1-1.1.2:1.3: GSM modem (1-port) converter detected
+Oct  2 09:00:59 dr100 kernel: [   26.206918] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB11
+Oct  2 09:00:59 dr100 kernel: [   26.208264] qmi_wwan 1-1.1.2:1.4: cdc-wdm2: USB WDM device
+Oct  2 09:00:59 dr100 kernel: [   26.209723] qmi_wwan 1-1.1.2:1.4 wwan2: register 'qmi_wwan' at usb-3f980000.usb-1.1.2, WWAN/QMI device, 2a:5e:cb:9c:f7:4d
+Oct  2 09:00:59 dr100 mtp-probe: checking bus 1, device 7: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.2"
+Oct  2 09:01:00 dr100 mtp-probe: bus: 1, device: 7 was not an MTP device
+Oct  2 09:01:00 dr100 systemd[1]: Found device Android.
+Oct  2 09:01:00 dr100 systemd[1]: Started ifup for wwan2.
+Oct  2 09:01:00 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:01:00 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:01:00 dr100 sh[980]: wwan2=wwan2
+Oct  2 09:01:01 dr100 sh[980]: MNC 6
+Oct  2 09:01:01 dr100 sh[980]: [U+]
+Oct  2 09:01:01 dr100 sh[980]: Set Band 7
+Oct  2 09:01:08 dr100 sh[775]: [/dev/cdc-wdm0] Network started
+Oct  2 09:01:08 dr100 sh[775]: #011Packet data handle: '2275331312'
+Oct  2 09:01:08 dr100 sh[775]: [/dev/cdc-wdm0] Client ID not released:
+Oct  2 09:01:08 dr100 sh[775]: #011Service: 'wds'
+Oct  2 09:01:08 dr100 sh[775]: #011    CID: '19'
+Oct  2 09:01:08 dr100 sh[867]: [/dev/cdc-wdm1] Network started
+Oct  2 09:01:08 dr100 sh[867]: #011Packet data handle: '2266917824'
+Oct  2 09:01:08 dr100 sh[867]: [/dev/cdc-wdm1] Client ID not released:
+Oct  2 09:01:08 dr100 sh[867]: #011Service: 'wds'
+Oct  2 09:01:08 dr100 sh[867]: #011    CID: '19'
+Oct  2 09:01:08 dr100 sh[775]: udhcpc (v1.22.1) started
+Oct  2 09:01:08 dr100 sh[867]: udhcpc (v1.22.1) started
+Oct  2 09:01:08 dr100 uchcpc[1071]: wwan0: deconfigured
+Oct  2 09:01:08 dr100 uchcpc[1076]: wwan1: deconfigured
+Oct  2 09:01:08 dr100 sh[775]: Sending discover...
+Oct  2 09:01:08 dr100 sh[867]: Sending discover...
+Oct  2 09:01:08 dr100 sh[775]: Sending select for 10.206.124.6...
+Oct  2 09:01:08 dr100 sh[867]: Sending select for 10.206.113.30...
+Oct  2 09:01:08 dr100 sh[775]: Lease of 10.206.124.6 obtained, lease time 7200
+Oct  2 09:01:08 dr100 sh[867]: Lease of 10.206.113.30 obtained, lease time 7200
+Oct  2 09:01:08 dr100 sh[867]: ip: RTNETLINK answers: File exists
+Oct  2 09:01:08 dr100 uchcpc[1076]: wwan1: bound: IP=10.206.113.30/255.255.255.252 router=10.206.113.29 domain="" dns="117.111.29.4 211.36.129.36" lease=7200
+Oct  2 09:01:09 dr100 uchcpc[1071]: wwan0: bound: IP=10.206.124.6/255.255.255.252 router=10.206.124.5 domain="" dns="117.111.29.4 211.36.129.36" lease=7200
+Oct  2 09:10:12 dr100 systemd[1]: Time has been changed
+Oct  2 09:10:12 dr100 systemd-timesyncd[260]: Synchronized to time server 106.247.248.106:123 (2.debian.pool.ntp.org).
+Oct  2 09:10:12 dr100 systemd[514]: Time has been changed
+Oct  2 09:10:12 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 22min 1.373452s random time.
+Oct  2 09:10:12 dr100 systemd[1]: apt-daily.timer: Adding 10h 31min 19.708505s random time.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Oct  2 09:10:13 dr100 systemd-modules-load[89]: Inserted module 'i2c_dev'
+Oct  2 09:10:13 dr100 fake-hwclock[85]: Mon  1 Oct 08:17:01 UTC 2018
+Oct  2 09:10:13 dr100 systemd[1]: Time has been changed
+Oct  2 09:10:13 dr100 systemd[1]: Started File System Check Daemon to report status.
+Oct  2 09:10:13 dr100 systemd[1]: Mounting Configuration File System...
+Oct  2 09:10:13 dr100 systemd[1]: Starting Apply Kernel Variables...
+Oct  2 09:10:13 dr100 systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct  2 09:10:13 dr100 systemd[1]: Mounted Configuration File System.
+Oct  2 09:10:13 dr100 systemd[1]: Started Apply Kernel Variables.
+Oct  2 09:10:13 dr100 systemd-fsck[100]: e2fsck 1.43.4 (31-Jan-2017)
+Oct  2 09:10:13 dr100 systemd[1]: Started Create Static Device Nodes in /dev.
+Oct  2 09:10:13 dr100 systemd[1]: Starting udev Kernel Device Manager...
+Oct  2 09:10:13 dr100 systemd-fsck[100]: rootfs: clean, 189460/1926848 files, 1530195/7779456 blocks
+Oct  2 09:10:13 dr100 systemd[1]: Started File System Check on Root Device.
+Oct  2 09:10:13 dr100 systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct  2 09:10:13 dr100 systemd[1]: Started Remount Root and Kernel File Systems.
+Oct  2 09:10:13 dr100 systemd[1]: Starting Load/Save Random Seed...
+Oct  2 09:10:13 dr100 systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  2 09:10:13 dr100 systemd[1]: Starting udev Coldplug all Devices...
+Oct  2 09:10:13 dr100 systemd[1]: Started Load/Save Random Seed.
+Oct  2 09:10:13 dr100 systemd[1]: Started udev Kernel Device Manager.
+Oct  2 09:10:13 dr100 systemd[1]: Started Flush Journal to Persistent Storage.
+Oct  2 09:10:13 dr100 systemd[1]: Started Set the console keyboard layout.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Local File Systems (Pre).
+Oct  2 09:10:13 dr100 mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1"
+Oct  2 09:10:13 dr100 mtp-probe: bus: 1, device: 4 was not an MTP device
+Oct  2 09:10:13 dr100 systemd[1]: Started udev Coldplug all Devices.
+Oct  2 09:10:13 dr100 systemd[1]: Starting Show Plymouth Boot Screen...
+Oct  2 09:10:13 dr100 systemd[1]: Started Show Plymouth Boot Screen.
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Oct  2 09:10:13 dr100 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Linux version 4.14.50-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1122 SMP Tue Jun 19 12:26:26 BST 2018
+Oct  2 09:10:13 dr100 kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Oct  2 09:10:13 dr100 kernel: [    0.000000] CPU: div instructions available: patching division code
+Oct  2 09:10:13 dr100 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Encrypted Volumes.
+Oct  2 09:10:13 dr100 kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 3 Model B Plus Rev 1.3
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Memory policy: Data cache writealloc
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Paths.
+Oct  2 09:10:13 dr100 kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Oct  2 09:10:13 dr100 kernel: [    0.000000] On node 0 totalpages: 242688
+Oct  2 09:10:13 dr100 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c85000, node_mem_map ba3a1000
+Oct  2 09:10:13 dr100 kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Oct  2 09:10:13 dr100 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Oct  2 09:10:13 dr100 systemd[1]: Found device /dev/disk/by-partuuid/422de1a7-01.
+Oct  2 09:10:13 dr100 kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Oct  2 09:10:13 dr100 systemd[1]: Starting File System Check on /dev/disk/by-partuuid/422de1a7-01...
+Oct  2 09:10:13 dr100 kernel: [    0.000000] percpu: Embedded 17 pages/cpu @ba34a000 s38720 r8192 d22720 u69632
+Oct  2 09:10:13 dr100 mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1"
+Oct  2 09:10:13 dr100 kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Oct  2 09:10:13 dr100 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 240555
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 root=PARTUUID=422de1a7-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+Oct  2 09:10:13 dr100 mtp-probe: bus: 1, device: 4 was not an MTP device
+Oct  2 09:10:13 dr100 kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Sound Card.
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct  2 09:10:13 dr100 systemd-fsck[226]: fsck.fat 4.1 (2017-01-24)
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Memory: 940236K/970752K available (7168K kernel code, 575K rwdata, 2072K rodata, 1024K init, 706K bss, 22324K reserved, 8192K cma-reserved)
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Virtual kernel memory layout:
+Oct  2 09:10:13 dr100 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Oct  2 09:10:13 dr100 systemd-fsck[226]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Oct  2 09:10:13 dr100 kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Oct  2 09:10:13 dr100 systemd-fsck[226]:  Automatically removing dirty bit.
+Oct  2 09:10:13 dr100 kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000]       .data : 0x80c00000 - 0x80c8fef4   ( 576 kB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000]        .bss : 0x80c96f40 - 0x80d478b4   ( 707 kB)
+Oct  2 09:10:13 dr100 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Oct  2 09:10:13 dr100 kernel: [    0.000000] ftrace: allocating 25253 entries in 75 pages
+Oct  2 09:10:13 dr100 kernel: [    0.000000] Hierarchical RCU implementation.
+Oct  2 09:10:13 dr100 kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Oct  2 09:10:13 dr100 kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Oct  2 09:10:13 dr100 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Oct  2 09:10:13 dr100 kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Oct  2 09:10:13 dr100 kernel: [    0.000018] Switching to timer-based delay loop, resolution 52ns
+Oct  2 09:10:13 dr100 kernel: [    0.000262] Console: colour dummy device 80x30
+Oct  2 09:10:13 dr100 kernel: [    0.000278] console [tty1] enabled
+Oct  2 09:10:13 dr100 kernel: [    0.000306] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Oct  2 09:10:13 dr100 kernel: [    0.000321] pid_max: default: 32768 minimum: 301
+Oct  2 09:10:13 dr100 kernel: [    0.000639] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct  2 09:10:13 dr100 kernel: [    0.000653] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct  2 09:10:13 dr100 kernel: [    0.001584] Disabling memory control group subsystem
+Oct  2 09:10:13 dr100 kernel: [    0.001666] CPU: Testing write buffer coherency: ok
+Oct  2 09:10:13 dr100 kernel: [    0.002056] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Oct  2 09:10:13 dr100 systemd-fsck[226]: Performing changes.
+Oct  2 09:10:13 dr100 kernel: [    0.002431] Setting up static identity map for 0x100000 - 0x10003c
+Oct  2 09:10:13 dr100 kernel: [    0.002549] Hierarchical SRCU implementation.
+Oct  2 09:10:13 dr100 systemd-fsck[226]: /dev/mmcblk0p1: 167 files, 44386/87078 clusters
+Oct  2 09:10:13 dr100 kernel: [    0.003181] smp: Bringing up secondary CPUs ...
+Oct  2 09:10:13 dr100 kernel: [    0.003860] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Oct  2 09:10:13 dr100 systemd[1]: Started File System Check on /dev/disk/by-partuuid/422de1a7-01.
+Oct  2 09:10:13 dr100 kernel: [    0.004607] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Oct  2 09:10:13 dr100 kernel: [    0.005332] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Oct  2 09:10:13 dr100 kernel: [    0.005437] smp: Brought up 1 node, 4 CPUs
+Oct  2 09:10:13 dr100 systemd[1]: Mounting /boot...
+Oct  2 09:10:13 dr100 kernel: [    0.005447] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Oct  2 09:10:13 dr100 kernel: [    0.005453] CPU: All CPU(s) started in HYP mode.
+Oct  2 09:10:13 dr100 kernel: [    0.005457] CPU: Virtualization extensions available.
+Oct  2 09:10:13 dr100 kernel: [    0.006311] devtmpfs: initialized
+Oct  2 09:10:13 dr100 kernel: [    0.016200] random: get_random_u32 called from bucket_table_alloc+0xfc/0x24c with crng_init=0
+Oct  2 09:10:13 dr100 systemd[1]: Mounted /boot.
+Oct  2 09:10:13 dr100 kernel: [    0.016925] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Oct  2 09:10:13 dr100 kernel: [    0.017145] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Oct  2 09:10:13 dr100 kernel: [    0.017162] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Local File Systems.
+Oct  2 09:10:13 dr100 kernel: [    0.017726] pinctrl core: initialized pinctrl subsystem
+Oct  2 09:10:13 dr100 kernel: [    0.018462] NET: Registered protocol family 16
+Oct  2 09:10:13 dr100 kernel: [    0.021154] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Oct  2 09:10:13 dr100 systemd[1]: Starting Raise network interfaces...
+Oct  2 09:10:13 dr100 kernel: [    0.025997] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Oct  2 09:10:13 dr100 kernel: [    0.026004] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Oct  2 09:10:13 dr100 kernel: [    0.026201] Serial: AMBA PL011 UART driver
+Oct  2 09:10:13 dr100 systemd[1]: Starting Create Volatile Files and Directories...
+Oct  2 09:10:13 dr100 kernel: [    0.027815] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Oct  2 09:10:13 dr100 kernel: [    0.028269] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Oct  2 09:10:13 dr100 systemd[1]: Starting Set console font and keymap...
+Oct  2 09:10:13 dr100 kernel: [    0.059341] bcm2835-dma 3f007000.dma: DMA legacy API manager at bb813000, dmachans=0x1
+Oct  2 09:10:13 dr100 kernel: [    0.060846] SCSI subsystem initialized
+Oct  2 09:10:13 dr100 kernel: [    0.061070] usbcore: registered new interface driver usbfs
+Oct  2 09:10:13 dr100 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  2 09:10:13 dr100 kernel: [    0.061122] usbcore: registered new interface driver hub
+Oct  2 09:10:13 dr100 kernel: [    0.061206] usbcore: registered new device driver usb
+Oct  2 09:10:13 dr100 kernel: [    0.070091] raspberrypi-firmware soc:firmware: Attached to firmware from 2018-06-07 15:31
+Oct  2 09:10:13 dr100 systemd[1]: Starting Preprocess NFS configuration...
+Oct  2 09:10:13 dr100 kernel: [    0.071483] clocksource: Switched to clocksource arch_sys_counter
+Oct  2 09:10:13 dr100 kernel: [    0.148495] VFS: Disk quotas dquot_6.6.0
+Oct  2 09:10:13 dr100 kernel: [    0.148578] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct  2 09:10:13 dr100 systemd[1]: Started Preprocess NFS configuration.
+Oct  2 09:10:13 dr100 kernel: [    0.148764] FS-Cache: Loaded
+Oct  2 09:10:13 dr100 kernel: [    0.148961] CacheFiles: Loaded
+Oct  2 09:10:13 dr100 kernel: [    0.157718] NET: Registered protocol family 2
+Oct  2 09:10:13 dr100 systemd[1]: Started Set console font and keymap.
+Oct  2 09:10:13 dr100 kernel: [    0.158436] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Oct  2 09:10:13 dr100 kernel: [    0.158560] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Oct  2 09:10:13 dr100 systemd[1]: Reached target NFS client services.
+Oct  2 09:10:13 dr100 kernel: [    0.158745] TCP: Hash tables configured (established 8192 bind 8192)
+Oct  2 09:10:13 dr100 kernel: [    0.158874] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 09:10:13 dr100 kernel: [    0.158918] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 09:10:13 dr100 kernel: [    0.159144] NET: Registered protocol family 1
+Oct  2 09:10:13 dr100 kernel: [    0.159579] RPC: Registered named UNIX socket transport module.
+Oct  2 09:10:13 dr100 kernel: [    0.159585] RPC: Registered udp transport module.
+Oct  2 09:10:13 dr100 kernel: [    0.159590] RPC: Registered tcp transport module.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Remote File Systems (Pre).
+Oct  2 09:10:13 dr100 kernel: [    0.159595] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct  2 09:10:13 dr100 kernel: [    0.161081] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Remote File Systems.
+Oct  2 09:10:13 dr100 kernel: [    0.163877] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Oct  2 09:10:13 dr100 kernel: [    0.171833] FS-Cache: Netfs 'nfs' registered for caching
+Oct  2 09:10:13 dr100 kernel: [    0.172423] NFS: Registering the id_resolver key type
+Oct  2 09:10:13 dr100 kernel: [    0.172453] Key type id_resolver registered
+Oct  2 09:10:13 dr100 kernel: [    0.172459] Key type id_legacy registered
+Oct  2 09:10:13 dr100 kernel: [    0.172474] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Oct  2 09:10:13 dr100 kernel: [    0.174299] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Oct  2 09:10:13 dr100 systemd[1]: Started Create Volatile Files and Directories.
+Oct  2 09:10:13 dr100 kernel: [    0.174428] io scheduler noop registered
+Oct  2 09:10:13 dr100 kernel: [    0.174434] io scheduler deadline registered (default)
+Oct  2 09:10:13 dr100 kernel: [    0.174708] io scheduler cfq registered
+Oct  2 09:10:13 dr100 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct  2 09:10:13 dr100 kernel: [    0.174715] io scheduler mq-deadline registered
+Oct  2 09:10:13 dr100 kernel: [    0.174721] io scheduler kyber registered
+Oct  2 09:10:13 dr100 systemd[1]: Starting Network Time Synchronization...
+Oct  2 09:10:13 dr100 kernel: [    0.176956] BCM2708FB: allocated DMA memory fad00000
+Oct  2 09:10:13 dr100 kernel: [    0.176982] BCM2708FB: allocated DMA channel 0 @ bb813000
+Oct  2 09:10:13 dr100 kernel: [    0.185514] Console: switching to colour frame buffer device 82x26
+Oct  2 09:10:13 dr100 kernel: [    0.190641] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Oct  2 09:10:13 dr100 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct  2 09:10:13 dr100 kernel: [    0.191859] bcm2835-rng 3f104000.rng: hwrng registered
+Oct  2 09:10:13 dr100 systemd-timesyncd[274]: System clock time unset or jumped backwards, restoring from recorded timestamp: Tue 2018-10-02 09:10:12 KST
+Oct  2 09:10:13 dr100 systemd[1]: Time has been changed
+Oct  2 09:10:13 dr100 systemd[1]: Started Network Time Synchronization.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target System Time Synchronized.
+Oct  2 09:10:13 dr100 systemd[1]: Received SIGRTMIN+20 from PID 193 (plymouthd).
+Oct  2 09:10:13 dr100 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target System Initialization.
+Oct  2 09:10:13 dr100 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct  2 09:10:13 dr100 systemd[1]: apt-daily.timer: Adding 6h 1min 22.648301s random time.
+Oct  2 09:10:13 dr100 systemd[1]: Started Daily apt download activities.
+Oct  2 09:10:13 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 30min 3.226117s random time.
+Oct  2 09:10:13 dr100 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  2 09:10:13 dr100 systemd[1]: Listening on GPS (Global Positioning System) Daemon Sockets.
+Oct  2 09:10:13 dr100 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  2 09:10:13 dr100 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Timers.
+Oct  2 09:10:13 dr100 systemd[1]: Listening on triggerhappy.socket.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Sockets.
+Oct  2 09:10:13 dr100 systemd[1]: Reached target Basic System.
+Oct  2 09:10:13 dr100 kernel: [    0.191981] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Oct  2 09:10:13 dr100 kernel: [    0.192433] vc-sm: Videocore shared memory driver
+Oct  2 09:10:13 dr100 kernel: [    0.192698] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Oct  2 09:10:13 dr100 ifup[265]: /bin/sh: 1: cannot create /sys/class/net/wwan0/qmi/raw_ip: Directory nonexistent
+Oct  2 09:10:13 dr100 kernel: [    0.202145] brd: module loaded
+Oct  2 09:10:13 dr100 kernel: [    0.210660] loop: module loaded
+Oct  2 09:10:13 dr100 kernel: [    0.210674] Loading iSCSI transport class v2.0-870.
+Oct  2 09:10:13 dr100 systemd[1]: Started Regular background program processing daemon.
+Oct  2 09:10:13 dr100 kernel: [    0.211297] libphy: Fixed MDIO Bus: probed
+Oct  2 09:10:13 dr100 ifup[265]: ifup: failed to bring up wwan0
+Oct  2 09:10:13 dr100 kernel: [    0.211392] usbcore: registered new interface driver lan78xx
+Oct  2 09:10:13 dr100 systemd[1]: Starting Login Service...
+Oct  2 09:10:13 dr100 kernel: [    0.211444] usbcore: registered new interface driver smsc95xx
+Oct  2 09:10:13 dr100 kernel: [    0.211460] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Oct  2 09:10:13 dr100 kernel: [    0.439645] Core Release: 2.80a
+Oct  2 09:10:13 dr100 kernel: [    0.439654] Setting default values for core params
+Oct  2 09:10:13 dr100 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Oct  2 09:10:13 dr100 kernel: [    0.439686] Finished setting default values for core params
+Oct  2 09:10:13 dr100 kernel: [    0.639923] Using Buffer DMA mode
+Oct  2 09:10:13 dr100 systemd[1]: Started D-Bus System Message Bus.
+Oct  2 09:10:13 dr100 kernel: [    0.639929] Periodic Transfer Interrupt Enhancement - disabled
+Oct  2 09:10:13 dr100 ifup[265]: /bin/sh: 1: cannot create /sys/class/net/wwan1/qmi/raw_ip: Directory nonexistent
+Oct  2 09:10:13 dr100 kernel: [    0.639934] Multiprocessor Interrupt Enhancement - disabled
+Oct  2 09:10:13 dr100 kernel: [    0.639940] OTG VER PARAM: 0, OTG VER FLAG: 0
+Oct  2 09:10:13 dr100 kernel: [    0.639952] Dedicated Tx FIFOs mode
+Oct  2 09:10:13 dr100 cron[309]: (CRON) INFO (pidfile fd = 3)
+Oct  2 09:10:13 dr100 kernel: [    0.640317] WARN::dwc_otg_hcd_init:1046: FIQ DMA bounce buffers: virt = 0xbad14000 dma = 0xfad14000 len=9024
+Oct  2 09:10:13 dr100 kernel: [    0.640341] FIQ FSM acceleration enabled for :
+Oct  2 09:10:13 dr100 kernel: [    0.640341] Non-periodic Split Transactions
+Oct  2 09:10:13 dr100 kernel: [    0.640341] Periodic Split Transactions
+Oct  2 09:10:13 dr100 kernel: [    0.640341] High-Speed Isochronous Endpoints
+Oct  2 09:10:13 dr100 ifup[265]: ifup: failed to bring up wwan1
+Oct  2 09:10:13 dr100 kernel: [    0.640341] Interrupt/Control Split Transaction hack enabled
+Oct  2 09:10:13 dr100 kernel: [    0.640361] dwc_otg: Microframe scheduler enabled
+Oct  2 09:10:13 dr100 kernel: [    0.640447] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x805e7d20
+Oct  2 09:10:13 dr100 kernel: [    0.640457] WARN::hcd_init_fiq:460: FIQ ASM at 0x805e8088 length 36
+Oct  2 09:10:13 dr100 ifup[265]: /bin/sh: 1: cannot create /sys/class/net/wwan2/qmi/raw_ip: Directory nonexistent
+Oct  2 09:10:13 dr100 kernel: [    0.640469] WARN::hcd_init_fiq:486: MPHI regs_base at 0xbb87e000
+Oct  2 09:10:13 dr100 kernel: [    0.640526] dwc_otg 3f980000.usb: DWC OTG Controller
+Oct  2 09:10:13 dr100 ifup[265]: ifup: failed to bring up wwan2
+Oct  2 09:10:13 dr100 kernel: [    0.640559] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Oct  2 09:10:13 dr100 kernel: [    0.640591] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Oct  2 09:10:13 dr100 cron[309]: (CRON) INFO (Running @reboot jobs)
+Oct  2 09:10:13 dr100 kernel: [    0.640638] Init: Port Power? op_state=1
+Oct  2 09:10:13 dr100 kernel: [    0.640643] Init: Power Port (0)
+Oct  2 09:10:13 dr100 kernel: [    0.640840] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Oct  2 09:10:13 dr100 avahi-daemon[312]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Oct  2 09:10:13 dr100 kernel: [    0.640851] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct  2 09:10:13 dr100 kernel: [    0.640859] usb usb1: Product: DWC OTG Controller
+Oct  2 09:10:13 dr100 avahi-daemon[312]: Successfully dropped root privileges.
+Oct  2 09:10:13 dr100 kernel: [    0.640867] usb usb1: Manufacturer: Linux 4.14.50-v7+ dwc_otg_hcd
+Oct  2 09:10:13 dr100 kernel: [    0.640876] usb usb1: SerialNumber: 3f980000.usb
+Oct  2 09:10:13 dr100 kernel: [    0.641502] hub 1-0:1.0: USB hub found
+Oct  2 09:10:13 dr100 avahi-daemon[312]: avahi-daemon 0.6.32 starting up.
+Oct  2 09:10:13 dr100 kernel: [    0.641542] hub 1-0:1.0: 1 port detected
+Oct  2 09:10:13 dr100 kernel: [    0.642050] dwc_otg: FIQ enabled
+Oct  2 09:10:13 dr100 kernel: [    0.642055] dwc_otg: NAK holdoff enabled
+Oct  2 09:10:13 dr100 kernel: [    0.642060] dwc_otg: FIQ split-transaction FSM enabled
+Oct  2 09:10:13 dr100 kernel: [    0.642069] Module dwc_common_port init
+Oct  2 09:10:13 dr100 kernel: [    0.642304] usbcore: registered new interface driver usb-storage
+Oct  2 09:10:13 dr100 kernel: [    0.642475] mousedev: PS/2 mouse device common for all mice
+Oct  2 09:10:13 dr100 dbus[314]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Oct  2 09:10:13 dr100 kernel: [    0.642542] IR NEC protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642547] IR RC5(x/sz) protocol handler initialized
+Oct  2 09:10:13 dr100 avahi-daemon[312]: Successfully called chroot().
+Oct  2 09:10:13 dr100 kernel: [    0.642552] IR RC6 protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642557] IR JVC protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642562] IR Sony protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642567] IR SANYO protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642572] IR Sharp protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642577] IR MCE Keyboard/mouse protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.642582] IR XMP protocol handler initialized
+Oct  2 09:10:13 dr100 kernel: [    0.643231] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Oct  2 09:10:13 dr100 avahi-daemon[312]: Successfully dropped remaining capabilities.
+Oct  2 09:10:13 dr100 kernel: [    0.644075] bcm2835-cpufreq: min=600000 max=1400000
+Oct  2 09:10:13 dr100 kernel: [    0.644426] sdhci: Secure Digital Host Controller Interface driver
+Oct  2 09:10:13 dr100 kernel: [    0.644430] sdhci: Copyright(c) Pierre Ossman
+Oct  2 09:10:13 dr100 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Oct  2 09:10:13 dr100 kernel: [    0.644764] sdhost-bcm2835 3f202000.mmc: could not get clk, deferring probe
+Oct  2 09:10:13 dr100 kernel: [    0.644856] sdhci-pltfm: SDHCI platform and OF driver helper
+Oct  2 09:10:13 dr100 kernel: [    0.646261] ledtrig-cpu: registered to indicate activity on CPUs
+Oct  2 09:10:13 dr100 kernel: [    0.646396] hidraw: raw HID events driver (C) Jiri Kosina
+Oct  2 09:10:13 dr100 kernel: [    0.646539] usbcore: registered new interface driver usbhid
+Oct  2 09:10:13 dr100 systemd[1]: Starting Save/Restore Sound Card State...
+Oct  2 09:10:13 dr100 kernel: [    0.646543] usbhid: USB HID core driver
+Oct  2 09:10:13 dr100 kernel: [    0.647118] vchiq: vchiq_init_state: slot_zero = bad80000, is_master = 0
+Oct  2 09:10:13 dr100 kernel: [    0.648481] [vc_sm_connected_init]: start
+Oct  2 09:10:13 dr100 systemd[1]: Starting Check for v3d driver...
+Oct  2 09:10:13 dr100 kernel: [    0.657150] [vc_sm_connected_init]: end - returning 0
+Oct  2 09:10:13 dr100 kernel: [    0.657687] Initializing XFRM netlink socket
+Oct  2 09:10:13 dr100 avahi-daemon[312]: No service file found in /etc/avahi/services.
+Oct  2 09:10:13 dr100 kernel: [    0.657709] NET: Registered protocol family 17
+Oct  2 09:10:13 dr100 kernel: [    0.657808] Key type dns_resolver registered
+Oct  2 09:10:13 dr100 kernel: [    0.658310] Registering SWP/SWPB emulation handler
+Oct  2 09:10:13 dr100 kernel: [    0.658879] registered taskstats version 1
+Oct  2 09:10:13 dr100 systemd[1]: Started BluezALSA proxy.
+Oct  2 09:10:13 dr100 kernel: [    0.664645] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Oct  2 09:10:13 dr100 kernel: [    0.664716] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Oct  2 09:10:13 dr100 systemd[1]: Starting dhcpcd on all interfaces...
+Oct  2 09:10:13 dr100 kernel: [    0.666545] sdhost: log_buf @ bad13000 (fad13000)
+Oct  2 09:10:13 dr100 kernel: [    0.741510] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Oct  2 09:10:13 dr100 kernel: [    0.742487] of_cfs_init
+Oct  2 09:10:13 dr100 kernel: [    0.742574] of_cfs_init: OK
+Oct  2 09:10:13 dr100 avahi-daemon[312]: Network interface enumeration completed.
+Oct  2 09:10:13 dr100 kernel: [    0.743111] Waiting for root device PARTUUID=422de1a7-02...
+Oct  2 09:10:13 dr100 kernel: [    0.871504] mmc0: host does not support reading read-only switch, assuming write-enable
+Oct  2 09:10:13 dr100 systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Oct  2 09:10:13 dr100 kernel: [    0.871671] Indeed it is in host mode hprt0 = 00021501
+Oct  2 09:10:13 dr100 kernel: [    0.933426] mmc0: new high speed SDHC card at address aaaa
+Oct  2 09:10:13 dr100 kernel: [    0.933989] mmcblk0: mmc0:aaaa SB32G 29.7 GiB
+Oct  2 09:10:13 dr100 kernel: [    0.938402]  mmcblk0: p1 p2
+Oct  2 09:10:13 dr100 kernel: [    0.959314] random: fast init done
+Oct  2 09:10:13 dr100 kernel: [    0.965579] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Oct  2 09:10:13 dr100 kernel: [    0.965587] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Oct  2 09:10:13 dr100 kernel: [    1.081527] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Oct  2 09:10:13 dr100 avahi-daemon[312]: Server startup complete. Host name is dr100.local. Local service cookie is 3223158491.
+Oct  2 09:10:13 dr100 kernel: [    1.081640] Indeed it is in host mode hprt0 = 00001101
+Oct  2 09:10:13 dr100 kernel: [    1.289201] EXT4-fs (mmcblk0p2): recovery complete
+Oct  2 09:10:13 dr100 systemd[1]: Starting System Logging Service...
+Oct  2 09:10:13 dr100 kernel: [    1.294889] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Oct  2 09:10:13 dr100 kernel: [    1.294946] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Oct  2 09:10:13 dr100 systemd[1]: Starting Disable WiFi if country not set...
+Oct  2 09:10:13 dr100 kernel: [    1.303532] devtmpfs: mounted
+Oct  2 09:10:13 dr100 kernel: [    1.306674] Freeing unused kernel memory: 1024K
+Oct  2 09:10:13 dr100 kernel: [    1.321774] usb 1-1: New USB device found, idVendor=0424, idProduct=2514
+Oct  2 09:10:13 dr100 kernel: [    1.321786] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:10:13 dr100 kernel: [    1.322773] hub 1-1:1.0: USB hub found
+Oct  2 09:10:13 dr100 systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Oct  2 09:10:13 dr100 kernel: [    1.322858] hub 1-1:1.0: 4 ports detected
+Oct  2 09:10:13 dr100 kernel: [    1.641523] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Oct  2 09:10:13 dr100 systemd[1]: Starting triggerhappy global hotkey daemon...
+Oct  2 09:10:13 dr100 kernel: [    1.771795] usb 1-1.1: New USB device found, idVendor=0424, idProduct=2514
+Oct  2 09:10:13 dr100 kernel: [    1.771810] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:10:13 dr100 kernel: [    1.772401] hub 1-1.1:1.0: USB hub found
+Oct  2 09:10:13 dr100 kernel: [    1.772478] hub 1-1.1:1.0: 3 ports detected
+Oct  2 09:10:13 dr100 kernel: [    1.812849] NET: Registered protocol family 10
+Oct  2 09:10:13 dr100 kernel: [    1.814003] Segment Routing with IPv6
+Oct  2 09:10:13 dr100 systemd[1]: Started Save/Restore Sound Card State.
+Oct  2 09:10:13 dr100 kernel: [    1.824966] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct  2 09:10:13 dr100 kernel: [    1.841968] random: systemd: uninitialized urandom read (16 bytes read)
+Oct  2 09:10:13 dr100 systemd[1]: Started Check for v3d driver.
+Oct  2 09:10:13 dr100 kernel: [    1.894989] random: systemd: uninitialized urandom read (16 bytes read)
+Oct  2 09:10:13 dr100 kernel: [    1.910834] random: systemd-cryptse: uninitialized urandom read (16 bytes read)
+Oct  2 09:10:13 dr100 kernel: [    2.125201] dwc_otg_handle_wakeup_detected_intr lxstate = 2
+Oct  2 09:10:13 dr100 thd[341]: Found socket passed from systemd
+Oct  2 09:10:13 dr100 kernel: [    2.455834] i2c /dev entries driver
+Oct  2 09:10:13 dr100 kernel: [    2.571589] usb 1-1.1.1: new high-speed USB device number 4 using dwc_otg
+Oct  2 09:10:13 dr100 systemd[1]: Started triggerhappy global hotkey daemon.
+Oct  2 09:10:13 dr100 kernel: [    2.702101] usb 1-1.1.1: New USB device found, idVendor=0424, idProduct=7800
+Oct  2 09:10:13 dr100 dhcpcd[331]: dev: loaded udev
+Oct  2 09:10:13 dr100 kernel: [    2.702120] usb 1-1.1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:10:13 dr100 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="333" x-info="http://www.rsyslog.com"] start
+Oct  2 09:10:13 dr100 kernel: [    2.896183] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Oct  2 09:10:13 dr100 kernel: [    2.989010] libphy: lan78xx-mdiobus: probed
+Oct  2 09:10:13 dr100 kernel: [    3.702089] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Oct  2 09:10:13 dr100 kernel: [    3.704751] bcm2835_alsa bcm2835_alsa: card created with 8 channels
+Oct  2 09:10:13 dr100 systemd[1]: Started System Logging Service.
+Oct  2 09:10:13 dr100 bluealsa[330]: /usr/bin/bluealsa: No HCI device available
+Oct  2 09:10:13 dr100 kernel: [    5.567744] Bluetooth: Core ver 2.22
+Oct  2 09:10:13 dr100 kernel: [    5.567872] NET: Registered protocol family 31
+Oct  2 09:10:13 dr100 kernel: [    5.567879] Bluetooth: HCI device and connection manager initialized
+Oct  2 09:10:13 dr100 kernel: [    5.569442] Bluetooth: HCI socket layer initialized
+Oct  2 09:10:13 dr100 kernel: [    5.569470] Bluetooth: L2CAP socket layer initialized
+Oct  2 09:10:13 dr100 kernel: [    5.569531] Bluetooth: SCO socket layer initialized
+Oct  2 09:10:14 dr100 systemd[1]: bluealsa.service: Main process exited, code=exited, status=1/FAILURE
+Oct  2 09:10:14 dr100 systemd[1]: bluealsa.service: Unit entered failed state.
+Oct  2 09:10:14 dr100 systemd[1]: bluealsa.service: Failed with result 'exit-code'.
+Oct  2 09:10:14 dr100 dhcpcd[331]: forked to background, child pid 370
+Oct  2 09:10:14 dr100 systemd[1]: Started dhcpcd on all interfaces.
+Oct  2 09:10:14 dr100 wifi-country[336]: Wi-Fi is disabled because the country is not set
+Oct  2 09:10:14 dr100 systemd[1]: Started Disable WiFi if country not set.
+Oct  2 09:10:14 dr100 raspi-config[338]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Oct  2 09:10:14 dr100 dphys-swapfile[332]: Starting dphys-swapfile swapfile setup ...
+Oct  2 09:10:14 dr100 systemd[1]: networking.service: Main process exited, code=exited, status=1/FAILURE
+Oct  2 09:10:14 dr100 systemd[1]: Failed to start Raise network interfaces.
+Oct  2 09:10:14 dr100 systemd[1]: networking.service: Unit entered failed state.
+Oct  2 09:10:14 dr100 systemd[1]: networking.service: Failed with result 'exit-code'.
+Oct  2 09:10:14 dr100 systemd[1]: Started Login Service.
+Oct  2 09:10:14 dr100 raspi-config[338]:  No. Switching to ondemand scaling governor.
+Oct  2 09:10:14 dr100 systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Oct  2 09:10:14 dr100 systemd[1]: Starting LSB: Start/stop fluentd...
+Oct  2 09:10:14 dr100 systemd[1]: Reached target Network.
+Oct  2 09:10:14 dr100 dhcpcd[370]: eth0: waiting for carrier
+Oct  2 09:10:14 dr100 kernel: [    5.722056] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct  2 09:10:14 dr100 systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  2 09:10:14 dr100 systemd[1]: Starting Permit User Sessions...
+Oct  2 09:10:14 dr100 systemd[1]: Starting /etc/rc.local Compatibility...
+Oct  2 09:10:14 dr100 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  2 09:10:14 dr100 systemd[1]: Started Permit User Sessions.
+Oct  2 09:10:14 dr100 systemd[1]: Starting Light Display Manager...
+Oct  2 09:10:14 dr100 systemd[1]: Started /etc/rc.local Compatibility.
+Oct  2 09:10:14 dr100 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  2 09:10:14 dr100 systemd[1]: Starting Hold until boot process finishes up...
+Oct  2 09:10:14 dr100 systemd[1]: Received SIGRTMIN+21 from PID 193 (plymouthd).
+Oct  2 09:10:14 dr100 systemd[1]: Started Terminate Plymouth Boot Screen.
+Oct  2 09:10:14 dr100 systemd[1]: Started Hold until boot process finishes up.
+Oct  2 09:10:14 dr100 systemd[1]: Started Getty on tty1.
+Oct  2 09:10:14 dr100 systemd[1]: Reached target Login Prompts.
+Oct  2 09:10:14 dr100 fluentd[393]: Starting Start/stop fluentd :/home/pi/msense-qmi/fluentd/td/gps.pos
+Oct  2 09:10:14 dr100 dphys-swapfile[332]: want /var/swap=100MByte, checking existing: keeping it
+Oct  2 09:10:14 dr100 dphys-swapfile[332]: done.
+Oct  2 09:10:14 dr100 kernel: [    5.944856] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+Oct  2 09:10:14 dr100 systemd[1]: Started LSB: Autogenerate and use a swap file.
+Oct  2 09:10:14 dr100 fluentd[393]: , 0, 0
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: ,
+Oct  2 09:10:14 dr100 fluentd[393]: /etc/init.d/fluentd: 42: [: Illegal number:
+Oct  2 09:10:14 dr100 fluentd[393]: /home/pi/msense-qmi/fluentd/td/modem_0.pos
+Oct  2 09:10:14 dr100 fluentd[393]: , 0, 0
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: ,
+Oct  2 09:10:14 dr100 fluentd[393]: /etc/init.d/fluentd: 42: [: Illegal number:
+Oct  2 09:10:14 dr100 fluentd[393]: /home/pi/msense-qmi/fluentd/td/modem_1.pos
+Oct  2 09:10:14 dr100 fluentd[393]: , 0, 0
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: ,
+Oct  2 09:10:14 dr100 fluentd[393]: /etc/init.d/fluentd: 42: [: Illegal number:
+Oct  2 09:10:14 dr100 fluentd[393]: /home/pi/msense-qmi/fluentd/td/modem_2.pos
+Oct  2 09:10:14 dr100 fluentd[393]: , 0, 0
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: ,
+Oct  2 09:10:14 dr100 fluentd[393]: /etc/init.d/fluentd: 42: [: Illegal number:
+Oct  2 09:10:14 dr100 fluentd[393]: /home/pi/msense-qmi/fluentd/td/speedtest.pos
+Oct  2 09:10:14 dr100 fluentd[393]: , 0, 0
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: stat: missing operand
+Oct  2 09:10:14 dr100 fluentd[393]: Try 'stat --help' for more information.
+Oct  2 09:10:14 dr100 fluentd[393]: ,
+Oct  2 09:10:14 dr100 fluentd[393]: /etc/init.d/fluentd: 42: [: Illegal number:
+Oct  2 09:10:14 dr100 fluentd[393]:  fluentd.
+Oct  2 09:10:14 dr100 systemd[1]: Started LSB: Start/stop fluentd.
+Oct  2 09:10:14 dr100 systemd[1]: Started OpenBSD Secure Shell server.
+Oct  2 09:10:14 dr100 systemd[1]: Reached target Multi-User System.
+Oct  2 09:10:14 dr100 lightdm[414]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Oct  2 09:10:14 dr100 systemd[1]: Started Light Display Manager.
+Oct  2 09:10:14 dr100 systemd[1]: Reached target Graphical Interface.
+Oct  2 09:10:14 dr100 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct  2 09:10:14 dr100 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct  2 09:10:14 dr100 systemd[1]: Startup finished in 1.637s (kernel) + 4.839s (userspace) = 6.477s.
+Oct  2 09:10:15 dr100 systemd[1]: Created slice User Slice of pi.
+Oct  2 09:10:15 dr100 systemd[1]: Starting User Manager for UID 1000...
+Oct  2 09:10:15 dr100 systemd[1]: Started Session c1 of user pi.
+Oct  2 09:10:15 dr100 kernel: [    6.798179] random: crng init done
+Oct  2 09:10:15 dr100 kernel: [    6.798187] random: 7 urandom warning(s) missed due to ratelimiting
+Oct  2 09:10:15 dr100 systemd[522]: Reached target Timers.
+Oct  2 09:10:15 dr100 systemd[522]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  2 09:10:15 dr100 systemd[522]: Starting D-Bus User Message Bus Socket.
+Oct  2 09:10:15 dr100 systemd[522]: Listening on GnuPG cryptographic agent (access for web browsers).
+Oct  2 09:10:15 dr100 systemd[522]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  2 09:10:15 dr100 systemd[522]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  2 09:10:15 dr100 systemd[522]: Reached target Paths.
+Oct  2 09:10:15 dr100 systemd[522]: Listening on D-Bus User Message Bus Socket.
+Oct  2 09:10:15 dr100 systemd[522]: Reached target Sockets.
+Oct  2 09:10:15 dr100 systemd[522]: Reached target Basic System.
+Oct  2 09:10:15 dr100 systemd[522]: Reached target Default.
+Oct  2 09:10:15 dr100 systemd[522]: Startup finished in 135ms.
+Oct  2 09:10:15 dr100 systemd[1]: Started User Manager for UID 1000.
+Oct  2 09:10:16 dr100 lightdm[565]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Oct  2 09:10:16 dr100 systemd[1]: Started Session c2 of user pi.
+Oct  2 09:10:16 dr100 lightdm[414]: Error opening audit socket: Protocol not supported
+Oct  2 09:10:16 dr100 systemd[522]: Started D-Bus User Message Bus.
+Oct  2 09:10:16 dr100 dbus-daemon[583]: Successfully activated service 'org.freedesktop.systemd1'
+Oct  2 09:10:18 dr100 dbus-daemon[583]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+Oct  2 09:10:18 dr100 systemd[522]: Starting Virtual filesystem service...
+Oct  2 09:10:18 dr100 dbus-daemon[583]: Successfully activated service 'org.gtk.vfs.Daemon'
+Oct  2 09:10:18 dr100 systemd[522]: Started Virtual filesystem service.
+Oct  2 09:10:18 dr100 kernel: [   10.251374] fuse init (API version 7.26)
+Oct  2 09:10:18 dr100 systemd[1]: Mounting FUSE Control File System...
+Oct  2 09:10:18 dr100 systemd[1]: Mounted FUSE Control File System.
+Oct  2 09:10:18 dr100 dbus[314]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service'
+Oct  2 09:10:18 dr100 systemd[1]: Starting Authorization Manager...
+Oct  2 09:10:19 dr100 polkitd[675]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct  2 09:10:19 dr100 dbus[314]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct  2 09:10:19 dr100 systemd[1]: Started Authorization Manager.
+Oct  2 09:10:19 dr100 dbus-daemon[583]: Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service'
+Oct  2 09:10:19 dr100 systemd[522]: Starting Virtual filesystem service - disk device monitor...
+Oct  2 09:10:19 dr100 dbus[314]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Oct  2 09:10:19 dr100 systemd[1]: Starting Disk Manager...
+Oct  2 09:10:19 dr100 udisksd[700]: udisks daemon version 2.1.8 starting
+Oct  2 09:10:19 dr100 dbus[314]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Oct  2 09:10:19 dr100 systemd[1]: Started Disk Manager.
+Oct  2 09:10:19 dr100 udisksd[700]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct  2 09:10:19 dr100 dbus-daemon[583]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Oct  2 09:10:19 dr100 systemd[522]: Started Virtual filesystem service - disk device monitor.
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+Oct  2 09:10:20 dr100 systemd[522]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Oct  2 09:10:20 dr100 gvfs-afc-volume-monitor[707]: Volume monitor alive
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Oct  2 09:10:20 dr100 systemd[522]: Started Virtual filesystem service - Apple File Conduit monitor.
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+Oct  2 09:10:20 dr100 systemd[522]: Starting Virtual filesystem service - digital camera monitor...
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Oct  2 09:10:20 dr100 systemd[522]: Started Virtual filesystem service - digital camera monitor.
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+Oct  2 09:10:20 dr100 systemd[522]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Oct  2 09:10:20 dr100 systemd[522]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+Oct  2 09:10:20 dr100 systemd[522]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Oct  2 09:10:20 dr100 dbus-daemon[583]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Oct  2 09:10:20 dr100 systemd[522]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Oct  2 09:10:22 dr100 kernel: [   14.291500] usb 1-1.1.2: new high-speed USB device number 5 using dwc_otg
+Oct  2 09:10:22 dr100 kernel: [   14.431438] usb 1-1.1.2: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:10:22 dr100 kernel: [   14.431446] usb 1-1.1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:10:22 dr100 kernel: [   14.431450] usb 1-1.1.2: Product: Android
+Oct  2 09:10:22 dr100 kernel: [   14.431453] usb 1-1.1.2: Manufacturer: Android
+Oct  2 09:10:22 dr100 mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.2"
+Oct  2 09:10:22 dr100 mtp-probe: bus: 1, device: 5 was not an MTP device
+Oct  2 09:10:22 dr100 kernel: [   14.467599] usbcore: registered new interface driver usbserial
+Oct  2 09:10:22 dr100 kernel: [   14.467633] usbcore: registered new interface driver usbserial_generic
+Oct  2 09:10:22 dr100 kernel: [   14.467659] usbserial: USB Serial support registered for generic
+Oct  2 09:10:22 dr100 kernel: [   14.469046] usbcore: registered new interface driver cdc_wdm
+Oct  2 09:10:22 dr100 kernel: [   14.480938] usbcore: registered new interface driver option
+Oct  2 09:10:22 dr100 kernel: [   14.480984] usbserial: USB Serial support registered for GSM modem (1-port)
+Oct  2 09:10:22 dr100 kernel: [   14.481270] option 1-1.1.2:1.0: GSM modem (1-port) converter detected
+Oct  2 09:10:22 dr100 kernel: [   14.482469] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB0
+Oct  2 09:10:22 dr100 kernel: [   14.483030] option 1-1.1.2:1.1: GSM modem (1-port) converter detected
+Oct  2 09:10:22 dr100 kernel: [   14.483767] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB1
+Oct  2 09:10:22 dr100 kernel: [   14.484612] qmi_wwan 1-1.1.2:1.4: cdc-wdm0: USB WDM device
+Oct  2 09:10:22 dr100 kernel: [   14.485956] qmi_wwan 1-1.1.2:1.4 wwan0: register 'qmi_wwan' at usb-3f980000.usb-1.1.2, WWAN/QMI device, 02:0b:31:3b:61:b1
+Oct  2 09:10:22 dr100 kernel: [   14.486156] usbcore: registered new interface driver qmi_wwan
+Oct  2 09:10:22 dr100 kernel: [   14.486509] option 1-1.1.2:1.2: GSM modem (1-port) converter detected
+Oct  2 09:10:22 dr100 kernel: [   14.486988] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB2
+Oct  2 09:10:22 dr100 kernel: [   14.487442] option 1-1.1.2:1.3: GSM modem (1-port) converter detected
+Oct  2 09:10:22 dr100 kernel: [   14.487799] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB3
+Oct  2 09:10:22 dr100 systemd[1]: Found device Android.
+Oct  2 09:10:22 dr100 systemd[1]: Started ifup for wwan0.
+Oct  2 09:10:23 dr100 kernel: [   14.681567] usb 1-1.3: new high-speed USB device number 6 using dwc_otg
+Oct  2 09:10:23 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:10:23 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:10:23 dr100 sh[782]: wwan0=wwan0
+Oct  2 09:10:23 dr100 kernel: [   14.821604] usb 1-1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:10:23 dr100 kernel: [   14.821614] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:10:23 dr100 kernel: [   14.821618] usb 1-1.3: Product: Android
+Oct  2 09:10:23 dr100 kernel: [   14.821621] usb 1-1.3: Manufacturer: Android
+Oct  2 09:10:23 dr100 kernel: [   14.823148] option 1-1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:10:23 dr100 kernel: [   14.823403] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB4
+Oct  2 09:10:23 dr100 kernel: [   14.823685] option 1-1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:10:23 dr100 kernel: [   14.823853] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB5
+Oct  2 09:10:23 dr100 kernel: [   14.824125] option 1-1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:10:23 dr100 kernel: [   14.824336] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB6
+Oct  2 09:10:23 dr100 kernel: [   14.824593] option 1-1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:10:23 dr100 kernel: [   14.824719] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB7
+Oct  2 09:10:23 dr100 kernel: [   14.825364] qmi_wwan 1-1.3:1.4: cdc-wdm1: USB WDM device
+Oct  2 09:10:23 dr100 kernel: [   14.826508] qmi_wwan 1-1.3:1.4 wwan1: register 'qmi_wwan' at usb-3f980000.usb-1.3, WWAN/QMI device, 02:0b:31:3b:61:b1
+Oct  2 09:10:23 dr100 mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Oct  2 09:10:23 dr100 mtp-probe: bus: 1, device: 6 was not an MTP device
+Oct  2 09:10:23 dr100 systemd[1]: Found device Android.
+Oct  2 09:10:23 dr100 systemd[1]: Started ifup for wwan1.
+Oct  2 09:10:23 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:10:23 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:10:23 dr100 sh[872]: wwan1=wwan1
+Oct  2 09:10:24 dr100 sh[782]: MNC 6
+Oct  2 09:10:24 dr100 sh[782]: [U+]
+Oct  2 09:10:24 dr100 sh[782]: Set Band 1
+Oct  2 09:10:30 dr100 sh[872]: MNC 6
+Oct  2 09:10:30 dr100 sh[872]: [U+]
+Oct  2 09:10:30 dr100 sh[872]: Set Band 5
+Oct  2 09:10:34 dr100 kernel: [   26.061518] usb 1-1.1.3: new high-speed USB device number 7 using dwc_otg
+Oct  2 09:10:34 dr100 kernel: [   26.201608] usb 1-1.1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:10:34 dr100 kernel: [   26.201623] usb 1-1.1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:10:34 dr100 kernel: [   26.201632] usb 1-1.1.3: Product: Android
+Oct  2 09:10:34 dr100 kernel: [   26.201640] usb 1-1.1.3: Manufacturer: Android
+Oct  2 09:10:34 dr100 kernel: [   26.203131] option 1-1.1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:10:34 dr100 kernel: [   26.203473] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB8
+Oct  2 09:10:34 dr100 kernel: [   26.204050] option 1-1.1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:10:34 dr100 kernel: [   26.204406] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB9
+Oct  2 09:10:34 dr100 kernel: [   26.204999] option 1-1.1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:10:34 dr100 kernel: [   26.205311] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB10
+Oct  2 09:10:34 dr100 kernel: [   26.205887] option 1-1.1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:10:34 dr100 kernel: [   26.206164] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB11
+Oct  2 09:10:34 dr100 kernel: [   26.212701] qmi_wwan 1-1.1.3:1.4: cdc-wdm2: USB WDM device
+Oct  2 09:10:34 dr100 kernel: [   26.213802] qmi_wwan 1-1.1.3:1.4 wwan2: register 'qmi_wwan' at usb-3f980000.usb-1.1.3, WWAN/QMI device, 02:0b:31:3b:61:b1
+Oct  2 09:10:34 dr100 mtp-probe: checking bus 1, device 7: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.3"
+Oct  2 09:10:34 dr100 mtp-probe: bus: 1, device: 7 was not an MTP device
+Oct  2 09:10:34 dr100 systemd[1]: Found device Android.
+Oct  2 09:10:34 dr100 systemd[1]: Started ifup for wwan2.
+Oct  2 09:10:34 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:10:34 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:10:34 dr100 sh[988]: wwan2=wwan2
+Oct  2 09:10:37 dr100 sh[782]: [/dev/cdc-wdm0] Network started
+Oct  2 09:10:37 dr100 sh[782]: #011Packet data handle: '2274773776'
+Oct  2 09:10:37 dr100 sh[782]: [/dev/cdc-wdm0] Client ID not released:
+Oct  2 09:10:37 dr100 sh[782]: #011Service: 'wds'
+Oct  2 09:10:37 dr100 sh[782]: #011    CID: '19'
+Oct  2 09:10:37 dr100 sh[782]: udhcpc (v1.22.1) started
+Oct  2 09:10:37 dr100 uchcpc[1066]: wwan0: deconfigured
+Oct  2 09:10:37 dr100 sh[782]: Sending discover...
+Oct  2 09:10:37 dr100 sh[782]: Sending select for 10.72.248.35...
+Oct  2 09:10:37 dr100 sh[782]: Lease of 10.72.248.35 obtained, lease time 7200
+Oct  2 09:10:37 dr100 uchcpc[1066]: wwan0: bound: IP=10.72.248.35/255.255.255.248 router=10.72.248.36 domain="" dns="106.102.124.4 117.111.30.132" lease=7200
+Oct  2 09:10:42 dr100 sh[988]: MNC 6
+Oct  2 09:10:42 dr100 sh[988]: [U+]
+Oct  2 09:10:42 dr100 sh[988]: Set Band 7
+Oct  2 09:10:43 dr100 sh[872]: [/dev/cdc-wdm1] Network started
+Oct  2 09:10:43 dr100 sh[872]: #011Packet data handle: '2267020000'
+Oct  2 09:10:43 dr100 sh[872]: [/dev/cdc-wdm1] Client ID not released:
+Oct  2 09:10:43 dr100 sh[872]: #011Service: 'wds'
+Oct  2 09:10:43 dr100 sh[872]: #011    CID: '19'
+Oct  2 09:10:43 dr100 sh[872]: udhcpc (v1.22.1) started
+Oct  2 09:10:43 dr100 uchcpc[1135]: wwan1: deconfigured
+Oct  2 09:10:43 dr100 sh[872]: Sending discover...
+Oct  2 09:10:43 dr100 sh[872]: Sending select for 10.206.100.199...
+Oct  2 09:10:43 dr100 sh[872]: Lease of 10.206.100.199 obtained, lease time 7200
+Oct  2 09:10:43 dr100 sh[872]: ip: RTNETLINK answers: File exists
+Oct  2 09:11:25 dr100 systemd[522]: Time has been changed
+Oct  2 09:11:25 dr100 systemd-timesyncd[274]: Synchronized to time server 83.170.75.28:123 (2.debian.pool.ntp.org).
+Oct  2 09:11:25 dr100 systemd[1]: Time has been changed
+Oct  2 09:11:25 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 37min 33.822119s random time.
+Oct  2 09:11:25 dr100 systemd[1]: apt-daily.timer: Adding 4h 53min 41.676162s random time.
+Oct  2 09:11:25 dr100 uchcpc[1135]: wwan1: bound: IP=10.206.100.199/255.255.255.240 router=10.206.100.200 domain="" dns="117.111.29.4 211.36.129.36" lease=7200
+Oct  2 09:11:36 dr100 sh[988]: [/dev/cdc-wdm2] Network started
+Oct  2 09:11:36 dr100 sh[988]: #011Packet data handle: '2274976064'
+Oct  2 09:11:36 dr100 sh[988]: [/dev/cdc-wdm2] Client ID not released:
+Oct  2 09:11:36 dr100 sh[988]: #011Service: 'wds'
+Oct  2 09:11:36 dr100 sh[988]: #011    CID: '19'
+Oct  2 09:11:36 dr100 sh[988]: udhcpc (v1.22.1) started
+Oct  2 09:11:36 dr100 uchcpc[1200]: wwan2: deconfigured
+Oct  2 09:11:36 dr100 sh[988]: Sending discover...
+Oct  2 09:11:36 dr100 sh[988]: Sending select for 10.184.2.97...
+Oct  2 09:11:36 dr100 sh[988]: Lease of 10.184.2.97 obtained, lease time 7200
+Oct  2 09:11:36 dr100 sh[988]: ip: RTNETLINK answers: File exists
+Oct  2 09:11:36 dr100 uchcpc[1200]: wwan2: bound: IP=10.184.2.97/255.255.255.252 router=10.184.2.98 domain="" dns="211.36.129.4 117.111.29.132" lease=7200
+Oct  2 09:11:55 dr100 systemd[1]: Started GPS (Global Positioning System) Daemon.
+Oct  2 09:11:55 dr100 kernel: [   65.925164] uart-pl011 3f201000.serial: no DMA platform data
+Oct  2 09:17:01 dr100 CRON[23359]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  2 09:20:35 dr100 kernel: [  585.218883] qmi_wwan 1-1.1.3:1.4: Unexpected error -71
+Oct  2 09:21:21 dr100 kernel: [  631.464167] usb 1-1.1.2: USB disconnect, device number 5
+Oct  2 09:21:21 dr100 kernel: [  631.464526] option1 ttyUSB0: GSM modem (1-port) converter now disconnected from ttyUSB0
+Oct  2 09:21:21 dr100 kernel: [  631.464573] option 1-1.1.2:1.0: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.468710] option1 ttyUSB1: GSM modem (1-port) converter now disconnected from ttyUSB1
+Oct  2 09:21:21 dr100 kernel: [  631.468780] option 1-1.1.2:1.1: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.469220] option1 ttyUSB2: GSM modem (1-port) converter now disconnected from ttyUSB2
+Oct  2 09:21:21 dr100 kernel: [  631.469259] option 1-1.1.2:1.2: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.469610] option1 ttyUSB3: GSM modem (1-port) converter now disconnected from ttyUSB3
+Oct  2 09:21:21 dr100 kernel: [  631.469646] option 1-1.1.2:1.3: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.469846] qmi_wwan 1-1.1.2:1.4 wwan0: unregister 'qmi_wwan' usb-3f980000.usb-1.1.2, WWAN/QMI device
+Oct  2 09:21:21 dr100 systemd[1]: Stopping ifup for wwan0...
+Oct  2 09:21:21 dr100 kernel: [  631.603164] usb 1-1.3: USB disconnect, device number 6
+Oct  2 09:21:21 dr100 kernel: [  631.603538] option1 ttyUSB4: GSM modem (1-port) converter now disconnected from ttyUSB4
+Oct  2 09:21:21 dr100 kernel: [  631.603578] option 1-1.3:1.0: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.603866] option1 ttyUSB5: GSM modem (1-port) converter now disconnected from ttyUSB5
+Oct  2 09:21:21 dr100 kernel: [  631.603900] option 1-1.3:1.1: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.604193] option1 ttyUSB6: GSM modem (1-port) converter now disconnected from ttyUSB6
+Oct  2 09:21:21 dr100 kernel: [  631.604229] option 1-1.3:1.2: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.604630] option1 ttyUSB7: GSM modem (1-port) converter now disconnected from ttyUSB7
+Oct  2 09:21:21 dr100 kernel: [  631.604689] option 1-1.3:1.3: device disconnected
+Oct  2 09:21:21 dr100 kernel: [  631.604910] qmi_wwan 1-1.3:1.4 wwan1: unregister 'qmi_wwan' usb-3f980000.usb-1.3, WWAN/QMI device
+Oct  2 09:21:21 dr100 systemd[1]: Stopping ifup for wwan1...
+Oct  2 09:21:21 dr100 ifdown[21735]: error: couldn't create QmiDevice: Couldn't query file info: Error when getting information for file '/dev/cdc-wdm0': No such file or directory
+Oct  2 09:21:21 dr100 systemd[1]: Stopped ifup for wwan0.
+Oct  2 09:21:21 dr100 ifdown[21795]: error: couldn't create QmiDevice: Couldn't query file info: Error when getting information for file '/dev/cdc-wdm1': No such file or directory
+Oct  2 09:21:21 dr100 systemd[1]: Stopped ifup for wwan1.
+Oct  2 09:21:34 dr100 kernel: [  644.314276] usb 1-1.1.2: new high-speed USB device number 8 using dwc_otg
+Oct  2 09:21:34 dr100 kernel: [  644.454381] usb 1-1.1.2: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:21:34 dr100 kernel: [  644.454392] usb 1-1.1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:21:34 dr100 kernel: [  644.454395] usb 1-1.1.2: Product: Android
+Oct  2 09:21:34 dr100 kernel: [  644.454400] usb 1-1.1.2: Manufacturer: Android
+Oct  2 09:21:34 dr100 kernel: [  644.459003] option 1-1.1.2:1.0: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.459237] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB0
+Oct  2 09:21:34 dr100 kernel: [  644.459525] option 1-1.1.2:1.1: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.459667] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB1
+Oct  2 09:21:34 dr100 kernel: [  644.459929] option 1-1.1.2:1.2: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.460079] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB2
+Oct  2 09:21:34 dr100 kernel: [  644.460395] option 1-1.1.2:1.3: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.460542] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB3
+Oct  2 09:21:34 dr100 kernel: [  644.464103] qmi_wwan 1-1.1.2:1.4: cdc-wdm0: USB WDM device
+Oct  2 09:21:34 dr100 kernel: [  644.472746] qmi_wwan 1-1.1.2:1.4 wwan0: register 'qmi_wwan' at usb-3f980000.usb-1.1.2, WWAN/QMI device, 02:0b:31:3b:61:b1
+Oct  2 09:21:34 dr100 mtp-probe: checking bus 1, device 8: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.2"
+Oct  2 09:21:34 dr100 mtp-probe: bus: 1, device: 8 was not an MTP device
+Oct  2 09:21:34 dr100 systemd[1]: Found device Android.
+Oct  2 09:21:34 dr100 systemd[1]: Started ifup for wwan0.
+Oct  2 09:21:34 dr100 kernel: [  644.694267] usb 1-1.3: new high-speed USB device number 9 using dwc_otg
+Oct  2 09:21:34 dr100 kernel: [  644.834371] usb 1-1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:21:34 dr100 kernel: [  644.834380] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:21:34 dr100 kernel: [  644.834384] usb 1-1.3: Product: Android
+Oct  2 09:21:34 dr100 kernel: [  644.834388] usb 1-1.3: Manufacturer: Android
+Oct  2 09:21:34 dr100 kernel: [  644.835893] option 1-1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.836143] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB4
+Oct  2 09:21:34 dr100 kernel: [  644.836493] option 1-1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.836678] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB5
+Oct  2 09:21:34 dr100 kernel: [  644.836960] option 1-1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.837135] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB6
+Oct  2 09:21:34 dr100 kernel: [  644.837444] option 1-1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:21:34 dr100 kernel: [  644.837591] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB7
+Oct  2 09:21:34 dr100 kernel: [  644.838264] qmi_wwan 1-1.3:1.4: cdc-wdm1: USB WDM device
+Oct  2 09:21:34 dr100 kernel: [  644.839468] qmi_wwan 1-1.3:1.4 wwan1: register 'qmi_wwan' at usb-3f980000.usb-1.3, WWAN/QMI device, 02:0b:31:3b:61:b1
+Oct  2 09:21:34 dr100 mtp-probe: checking bus 1, device 9: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Oct  2 09:21:34 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:21:34 dr100 mtp-probe: bus: 1, device: 9 was not an MTP device
+Oct  2 09:21:34 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:21:34 dr100 sh[25875]: wwan0=wwan0
+Oct  2 09:21:34 dr100 systemd[1]: Found device Android.
+Oct  2 09:21:34 dr100 systemd[1]: Started ifup for wwan1.
+Oct  2 09:21:35 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:21:35 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:21:35 dr100 sh[26011]: wwan1=wwan1
+Oct  2 09:21:35 dr100 sh[25875]: MNC 6
+Oct  2 09:21:35 dr100 sh[25875]: [U+]
+Oct  2 09:21:35 dr100 sh[25875]: Set Band 1
+Oct  2 09:21:41 dr100 sh[26011]: MNC 6
+Oct  2 09:21:41 dr100 sh[26011]: [U+]
+Oct  2 09:21:41 dr100 sh[26011]: Set Band 5
+Oct  2 09:21:48 dr100 sh[25875]: [/dev/cdc-wdm0] Network started
+Oct  2 09:21:48 dr100 sh[25875]: #011Packet data handle: '2274786400'
+Oct  2 09:21:48 dr100 sh[25875]: [/dev/cdc-wdm0] Client ID not released:
+Oct  2 09:21:48 dr100 sh[25875]: #011Service: 'wds'
+Oct  2 09:21:48 dr100 sh[25875]: #011    CID: '19'
+Oct  2 09:21:48 dr100 sh[25875]: udhcpc (v1.22.1) started
+Oct  2 09:21:48 dr100 uchcpc[27975]: wwan0: deconfigured
+Oct  2 09:21:48 dr100 sh[25875]: Sending discover...
+Oct  2 09:21:48 dr100 sh[25875]: Sending select for 10.32.150.216...
+Oct  2 09:21:48 dr100 sh[25875]: Lease of 10.32.150.216 obtained, lease time 7200
+Oct  2 09:21:49 dr100 uchcpc[27975]: wwan0: bound: IP=10.32.150.216/255.255.255.240 router=10.32.150.217 domain="" dns="106.102.124.4 117.111.30.132" lease=7200
+Oct  2 09:21:54 dr100 sh[26011]: [/dev/cdc-wdm1] Network started
+Oct  2 09:21:54 dr100 sh[26011]: #011Packet data handle: '2266954064'
+Oct  2 09:21:54 dr100 sh[26011]: [/dev/cdc-wdm1] Client ID not released:
+Oct  2 09:21:54 dr100 sh[26011]: #011Service: 'wds'
+Oct  2 09:21:54 dr100 sh[26011]: #011    CID: '19'
+Oct  2 09:21:54 dr100 sh[26011]: udhcpc (v1.22.1) started
+Oct  2 09:21:54 dr100 uchcpc[28916]: wwan1: deconfigured
+Oct  2 09:21:54 dr100 sh[26011]: Sending discover...
+Oct  2 09:21:55 dr100 sh[26011]: Sending select for 10.209.89.171...
+Oct  2 09:21:55 dr100 sh[26011]: Lease of 10.209.89.171 obtained, lease time 7200
+Oct  2 09:21:55 dr100 sh[26011]: ip: RTNETLINK answers: File exists
+Oct  2 09:21:55 dr100 uchcpc[28916]: wwan1: bound: IP=10.209.89.171/255.255.255.248 router=10.209.89.172 domain="" dns="117.111.29.4 211.36.129.36" lease=7200
+Oct  2 09:23:44 dr100 systemd-timesyncd[274]: Synchronized to time server 106.247.248.106:123 (0.debian.pool.ntp.org).
+Oct  2 09:25:49 dr100 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct  2 09:25:49 dr100 systemd[1]: Started Cleanup of Temporary Directories.
+Oct  2 09:23:44 dr100 systemd-modules-load[81]: Inserted module 'i2c_dev'
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Linux version 4.14.50-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1122 SMP Tue Jun 19 12:26:26 BST 2018
+Oct  2 09:23:44 dr100 kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Oct  2 09:23:44 dr100 kernel: [    0.000000] CPU: div instructions available: patching division code
+Oct  2 09:23:44 dr100 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Oct  2 09:23:44 dr100 kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 3 Model B Plus Rev 1.3
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Memory policy: Data cache writealloc
+Oct  2 09:23:44 dr100 kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Oct  2 09:23:44 dr100 kernel: [    0.000000] On node 0 totalpages: 242688
+Oct  2 09:23:44 dr100 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c85000, node_mem_map ba3a1000
+Oct  2 09:23:44 dr100 kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Oct  2 09:23:44 dr100 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Oct  2 09:23:44 dr100 kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Oct  2 09:23:44 dr100 kernel: [    0.000000] percpu: Embedded 17 pages/cpu @ba34a000 s38720 r8192 d22720 u69632
+Oct  2 09:23:44 dr100 kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Oct  2 09:23:44 dr100 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 240555
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=1280 bcm2708_fb.fbheight=800 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 root=PARTUUID=422de1a7-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+Oct  2 09:23:44 dr100 kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Memory: 940236K/970752K available (7168K kernel code, 575K rwdata, 2072K rodata, 1024K init, 706K bss, 22324K reserved, 8192K cma-reserved)
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Virtual kernel memory layout:
+Oct  2 09:23:44 dr100 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]       .data : 0x80c00000 - 0x80c8fef4   ( 576 kB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000]        .bss : 0x80c96f40 - 0x80d478b4   ( 707 kB)
+Oct  2 09:23:44 dr100 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Oct  2 09:23:44 dr100 fake-hwclock[86]: Tue  2 Oct 00:17:01 UTC 2018
+Oct  2 09:23:44 dr100 kernel: [    0.000000] ftrace: allocating 25253 entries in 75 pages
+Oct  2 09:23:44 dr100 kernel: [    0.000000] Hierarchical RCU implementation.
+Oct  2 09:23:44 dr100 kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Oct  2 09:23:44 dr100 kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Oct  2 09:23:44 dr100 systemd-fsck[91]: e2fsck 1.43.4 (31-Jan-2017)
+Oct  2 09:23:44 dr100 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Oct  2 09:23:44 dr100 kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Oct  2 09:23:44 dr100 systemd[1]: Started Create Static Device Nodes in /dev.
+Oct  2 09:23:44 dr100 kernel: [    0.000019] Switching to timer-based delay loop, resolution 52ns
+Oct  2 09:23:44 dr100 kernel: [    0.000264] Console: colour dummy device 80x30
+Oct  2 09:23:44 dr100 kernel: [    0.000281] console [tty1] enabled
+Oct  2 09:23:44 dr100 systemd[1]: Starting udev Kernel Device Manager...
+Oct  2 09:23:44 dr100 kernel: [    0.000309] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Oct  2 09:23:44 dr100 kernel: [    0.000324] pid_max: default: 32768 minimum: 301
+Oct  2 09:23:44 dr100 kernel: [    0.000642] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct  2 09:23:44 dr100 systemd-fsck[91]: rootfs: clean, 189462/1926848 files, 1532739/7779456 blocks
+Oct  2 09:23:44 dr100 kernel: [    0.000656] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.001586] Disabling memory control group subsystem
+Oct  2 09:23:44 dr100 systemd[1]: Started File System Check on Root Device.
+Oct  2 09:23:44 dr100 kernel: [    0.001669] CPU: Testing write buffer coherency: ok
+Oct  2 09:23:44 dr100 systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct  2 09:23:44 dr100 kernel: [    0.002060] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Oct  2 09:23:44 dr100 kernel: [    0.002436] Setting up static identity map for 0x100000 - 0x10003c
+Oct  2 09:23:44 dr100 kernel: [    0.002552] Hierarchical SRCU implementation.
+Oct  2 09:23:44 dr100 kernel: [    0.003182] smp: Bringing up secondary CPUs ...
+Oct  2 09:23:44 dr100 kernel: [    0.003857] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Oct  2 09:23:44 dr100 systemd[1]: Started Remount Root and Kernel File Systems.
+Oct  2 09:23:44 dr100 kernel: [    0.004601] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Oct  2 09:23:44 dr100 kernel: [    0.005324] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Oct  2 09:23:44 dr100 systemd[1]: Starting Load/Save Random Seed...
+Oct  2 09:23:44 dr100 kernel: [    0.005428] smp: Brought up 1 node, 4 CPUs
+Oct  2 09:23:44 dr100 kernel: [    0.005439] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Oct  2 09:23:44 dr100 kernel: [    0.005445] CPU: All CPU(s) started in HYP mode.
+Oct  2 09:23:44 dr100 systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct  2 09:23:44 dr100 kernel: [    0.005449] CPU: Virtualization extensions available.
+Oct  2 09:23:44 dr100 kernel: [    0.006299] devtmpfs: initialized
+Oct  2 09:23:44 dr100 kernel: [    0.016193] random: get_random_u32 called from bucket_table_alloc+0xfc/0x24c with crng_init=0
+Oct  2 09:23:44 dr100 systemd[1]: Starting udev Coldplug all Devices...
+Oct  2 09:23:44 dr100 kernel: [    0.016920] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Oct  2 09:23:44 dr100 kernel: [    0.017139] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Oct  2 09:23:44 dr100 kernel: [    0.017157] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.017720] pinctrl core: initialized pinctrl subsystem
+Oct  2 09:23:44 dr100 systemd[1]: Started Load/Save Random Seed.
+Oct  2 09:23:44 dr100 kernel: [    0.018455] NET: Registered protocol family 16
+Oct  2 09:23:44 dr100 kernel: [    0.021140] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Oct  2 09:23:44 dr100 systemd[1]: Started Flush Journal to Persistent Storage.
+Oct  2 09:23:44 dr100 kernel: [    0.025984] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Oct  2 09:23:44 dr100 systemd[1]: Started Set the console keyboard layout.
+Oct  2 09:23:44 dr100 kernel: [    0.025992] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Local File Systems (Pre).
+Oct  2 09:23:44 dr100 kernel: [    0.026188] Serial: AMBA PL011 UART driver
+Oct  2 09:23:44 dr100 systemd[1]: Started udev Kernel Device Manager.
+Oct  2 09:23:44 dr100 kernel: [    0.027798] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Oct  2 09:23:44 dr100 kernel: [    0.028255] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Oct  2 09:23:44 dr100 systemd[1]: Started udev Coldplug all Devices.
+Oct  2 09:23:44 dr100 kernel: [    0.059320] bcm2835-dma 3f007000.dma: DMA legacy API manager at bb813000, dmachans=0x1
+Oct  2 09:23:44 dr100 kernel: [    0.060824] SCSI subsystem initialized
+Oct  2 09:23:44 dr100 kernel: [    0.061048] usbcore: registered new interface driver usbfs
+Oct  2 09:23:44 dr100 kernel: [    0.061099] usbcore: registered new interface driver hub
+Oct  2 09:23:44 dr100 kernel: [    0.061183] usbcore: registered new device driver usb
+Oct  2 09:23:44 dr100 kernel: [    0.070093] raspberrypi-firmware soc:firmware: Attached to firmware from 2018-06-07 15:31
+Oct  2 09:23:44 dr100 systemd[1]: Starting Show Plymouth Boot Screen...
+Oct  2 09:23:44 dr100 kernel: [    0.071492] clocksource: Switched to clocksource arch_sys_counter
+Oct  2 09:23:44 dr100 kernel: [    0.148570] VFS: Disk quotas dquot_6.6.0
+Oct  2 09:23:44 dr100 kernel: [    0.148654] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.148840] FS-Cache: Loaded
+Oct  2 09:23:44 dr100 kernel: [    0.149036] CacheFiles: Loaded
+Oct  2 09:23:44 dr100 systemd[1]: Started Show Plymouth Boot Screen.
+Oct  2 09:23:44 dr100 kernel: [    0.157803] NET: Registered protocol family 2
+Oct  2 09:23:44 dr100 kernel: [    0.158521] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.158630] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Oct  2 09:23:44 dr100 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Oct  2 09:23:44 dr100 kernel: [    0.158816] TCP: Hash tables configured (established 8192 bind 8192)
+Oct  2 09:23:44 dr100 kernel: [    0.158944] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.158988] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 09:23:44 dr100 kernel: [    0.159216] NET: Registered protocol family 1
+Oct  2 09:23:44 dr100 kernel: [    0.159648] RPC: Registered named UNIX socket transport module.
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Encrypted Volumes.
+Oct  2 09:23:44 dr100 kernel: [    0.159654] RPC: Registered udp transport module.
+Oct  2 09:23:44 dr100 kernel: [    0.159659] RPC: Registered tcp transport module.
+Oct  2 09:23:44 dr100 kernel: [    0.159664] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct  2 09:23:44 dr100 kernel: [    0.161149] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Oct  2 09:23:44 dr100 kernel: [    0.163964] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Oct  2 09:23:44 dr100 kernel: [    0.171912] FS-Cache: Netfs 'nfs' registered for caching
+Oct  2 09:23:44 dr100 kernel: [    0.172503] NFS: Registering the id_resolver key type
+Oct  2 09:23:44 dr100 kernel: [    0.172536] Key type id_resolver registered
+Oct  2 09:23:44 dr100 kernel: [    0.172541] Key type id_legacy registered
+Oct  2 09:23:44 dr100 kernel: [    0.172556] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Oct  2 09:23:44 dr100 kernel: [    0.174424] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Oct  2 09:23:44 dr100 kernel: [    0.174544] io scheduler noop registered
+Oct  2 09:23:44 dr100 kernel: [    0.174551] io scheduler deadline registered (default)
+Oct  2 09:23:44 dr100 kernel: [    0.174822] io scheduler cfq registered
+Oct  2 09:23:44 dr100 kernel: [    0.174829] io scheduler mq-deadline registered
+Oct  2 09:23:44 dr100 kernel: [    0.174835] io scheduler kyber registered
+Oct  2 09:23:44 dr100 kernel: [    0.177072] BCM2708FB: allocated DMA memory fad00000
+Oct  2 09:23:44 dr100 kernel: [    0.177098] BCM2708FB: allocated DMA channel 0 @ bb813000
+Oct  2 09:23:44 dr100 kernel: [    0.205981] Console: switching to colour frame buffer device 160x50
+Oct  2 09:23:44 dr100 kernel: [    0.222892] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Oct  2 09:23:44 dr100 kernel: [    0.224092] bcm2835-rng 3f104000.rng: hwrng registered
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Paths.
+Oct  2 09:23:44 dr100 systemd[1]: Found device /dev/disk/by-partuuid/422de1a7-01.
+Oct  2 09:23:44 dr100 systemd[1]: Starting File System Check on /dev/disk/by-partuuid/422de1a7-01...
+Oct  2 09:23:44 dr100 mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1"
+Oct  2 09:23:44 dr100 mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2"
+Oct  2 09:23:44 dr100 mtp-probe: bus: 1, device: 4 was not an MTP device
+Oct  2 09:23:44 dr100 mtp-probe: bus: 1, device: 5 was not an MTP device
+Oct  2 09:23:44 dr100 systemd-fsck[243]: fsck.fat 4.1 (2017-01-24)
+Oct  2 09:23:44 dr100 systemd-fsck[243]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Oct  2 09:23:44 dr100 systemd-fsck[243]:  Automatically removing dirty bit.
+Oct  2 09:23:44 dr100 systemd-fsck[243]: Performing changes.
+Oct  2 09:23:44 dr100 systemd-fsck[243]: /dev/mmcblk0p1: 167 files, 44386/87078 clusters
+Oct  2 09:23:44 dr100 systemd[1]: Started File System Check on /dev/disk/by-partuuid/422de1a7-01.
+Oct  2 09:23:44 dr100 systemd[1]: Mounting /boot...
+Oct  2 09:23:44 dr100 systemd[1]: Mounted /boot.
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Local File Systems.
+Oct  2 09:23:44 dr100 systemd[1]: Starting Preprocess NFS configuration...
+Oct  2 09:23:44 dr100 kernel: [    0.224214] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Oct  2 09:23:44 dr100 kernel: [    0.224677] vc-sm: Videocore shared memory driver
+Oct  2 09:23:44 dr100 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct  2 09:23:44 dr100 kernel: [    0.224946] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Oct  2 09:23:44 dr100 kernel: [    0.234481] brd: module loaded
+Oct  2 09:23:44 dr100 kernel: [    0.243260] loop: module loaded
+Oct  2 09:23:44 dr100 systemd[1]: Starting Raise network interfaces...
+Oct  2 09:23:44 dr100 kernel: [    0.243272] Loading iSCSI transport class v2.0-870.
+Oct  2 09:23:44 dr100 kernel: [    0.243903] libphy: Fixed MDIO Bus: probed
+Oct  2 09:23:44 dr100 systemd[1]: Starting Set console font and keymap...
+Oct  2 09:23:44 dr100 kernel: [    0.244002] usbcore: registered new interface driver lan78xx
+Oct  2 09:23:44 dr100 kernel: [    0.244054] usbcore: registered new interface driver smsc95xx
+Oct  2 09:23:44 dr100 systemd[1]: Starting Create Volatile Files and Directories...
+Oct  2 09:23:44 dr100 kernel: [    0.244070] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Oct  2 09:23:44 dr100 kernel: [    0.472192] Core Release: 2.80a
+Oct  2 09:23:44 dr100 kernel: [    0.472203] Setting default values for core params
+Oct  2 09:23:44 dr100 kernel: [    0.472234] Finished setting default values for core params
+Oct  2 09:23:44 dr100 kernel: [    0.672484] Using Buffer DMA mode
+Oct  2 09:23:44 dr100 kernel: [    0.672490] Periodic Transfer Interrupt Enhancement - disabled
+Oct  2 09:23:44 dr100 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct  2 09:23:44 dr100 kernel: [    0.672495] Multiprocessor Interrupt Enhancement - disabled
+Oct  2 09:23:44 dr100 kernel: [    0.672503] OTG VER PARAM: 0, OTG VER FLAG: 0
+Oct  2 09:23:44 dr100 kernel: [    0.672512] Dedicated Tx FIFOs mode
+Oct  2 09:23:44 dr100 kernel: [    0.672913] WARN::dwc_otg_hcd_init:1046: FIQ DMA bounce buffers: virt = 0xbad14000 dma = 0xfad14000 len=9024
+Oct  2 09:23:44 dr100 systemd[1]: Started Preprocess NFS configuration.
+Oct  2 09:23:44 dr100 kernel: [    0.672938] FIQ FSM acceleration enabled for :
+Oct  2 09:23:44 dr100 kernel: [    0.672938] Non-periodic Split Transactions
+Oct  2 09:23:44 dr100 systemd[1]: Reached target NFS client services.
+Oct  2 09:23:44 dr100 kernel: [    0.672938] Periodic Split Transactions
+Oct  2 09:23:44 dr100 kernel: [    0.672938] High-Speed Isochronous Endpoints
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Remote File Systems (Pre).
+Oct  2 09:23:44 dr100 kernel: [    0.672938] Interrupt/Control Split Transaction hack enabled
+Oct  2 09:23:44 dr100 kernel: [    0.672946] dwc_otg: Microframe scheduler enabled
+Oct  2 09:23:44 dr100 kernel: [    0.672993] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x805e7d20
+Oct  2 09:23:44 dr100 kernel: [    0.673003] WARN::hcd_init_fiq:460: FIQ ASM at 0x805e8088 length 36
+Oct  2 09:23:44 dr100 kernel: [    0.673015] WARN::hcd_init_fiq:486: MPHI regs_base at 0xbb87e000
+Oct  2 09:23:44 dr100 kernel: [    0.673069] dwc_otg 3f980000.usb: DWC OTG Controller
+Oct  2 09:23:44 dr100 kernel: [    0.673101] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Oct  2 09:23:44 dr100 kernel: [    0.673132] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Remote File Systems.
+Oct  2 09:23:44 dr100 kernel: [    0.673178] Init: Port Power? op_state=1
+Oct  2 09:23:44 dr100 kernel: [    0.673183] Init: Power Port (0)
+Oct  2 09:23:44 dr100 systemd[1]: Started Set console font and keymap.
+Oct  2 09:23:44 dr100 kernel: [    0.673387] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Oct  2 09:23:44 dr100 kernel: [    0.673398] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct  2 09:23:44 dr100 kernel: [    0.673406] usb usb1: Product: DWC OTG Controller
+Oct  2 09:23:44 dr100 systemd[1]: Started Create Volatile Files and Directories.
+Oct  2 09:23:44 dr100 kernel: [    0.673414] usb usb1: Manufacturer: Linux 4.14.50-v7+ dwc_otg_hcd
+Oct  2 09:23:44 dr100 kernel: [    0.673422] usb usb1: SerialNumber: 3f980000.usb
+Oct  2 09:23:44 dr100 kernel: [    0.674017] hub 1-0:1.0: USB hub found
+Oct  2 09:23:44 dr100 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct  2 09:23:44 dr100 kernel: [    0.674056] hub 1-0:1.0: 1 port detected
+Oct  2 09:23:44 dr100 kernel: [    0.674558] dwc_otg: FIQ enabled
+Oct  2 09:23:44 dr100 systemd[1]: Starting Network Time Synchronization...
+Oct  2 09:23:44 dr100 kernel: [    0.674563] dwc_otg: NAK holdoff enabled
+Oct  2 09:23:44 dr100 kernel: [    0.674568] dwc_otg: FIQ split-transaction FSM enabled
+Oct  2 09:23:44 dr100 kernel: [    0.674579] Module dwc_common_port init
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Sound Card.
+Oct  2 09:23:44 dr100 kernel: [    0.674800] usbcore: registered new interface driver usb-storage
+Oct  2 09:23:44 dr100 kernel: [    0.674969] mousedev: PS/2 mouse device common for all mice
+Oct  2 09:23:44 dr100 kernel: [    0.675040] IR NEC protocol handler initialized
+Oct  2 09:23:44 dr100 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct  2 09:23:44 dr100 kernel: [    0.675046] IR RC5(x/sz) protocol handler initialized
+Oct  2 09:23:44 dr100 kernel: [    0.675051] IR RC6 protocol handler initialized
+Oct  2 09:23:44 dr100 systemd-udevd[198]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Oct  2 09:23:44 dr100 kernel: [    0.675056] IR JVC protocol handler initialized
+Oct  2 09:23:44 dr100 kernel: [    0.675062] IR Sony protocol handler initialized
+Oct  2 09:23:44 dr100 systemd-timesyncd[277]: System clock time unset or jumped backwards, restoring from recorded timestamp: Tue 2018-10-02 09:23:44 KST
+Oct  2 09:23:44 dr100 kernel: [    0.675066] IR SANYO protocol handler initialized
+Oct  2 09:23:44 dr100 kernel: [    0.675071] IR Sharp protocol handler initialized
+Oct  2 09:23:44 dr100 systemd[1]: Time has been changed
+Oct  2 09:23:44 dr100 kernel: [    0.675077] IR MCE Keyboard/mouse protocol handler initialized
+Oct  2 09:23:44 dr100 kernel: [    0.675082] IR XMP protocol handler initialized
+Oct  2 09:23:44 dr100 kernel: [    0.675724] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Oct  2 09:23:44 dr100 systemd[1]: Started Network Time Synchronization.
+Oct  2 09:23:44 dr100 kernel: [    0.675976] bcm2835-cpufreq: min=600000 max=1400000
+Oct  2 09:23:44 dr100 kernel: [    0.676316] sdhci: Secure Digital Host Controller Interface driver
+Oct  2 09:23:44 dr100 kernel: [    0.676320] sdhci: Copyright(c) Pierre Ossman
+Oct  2 09:23:44 dr100 systemd[1]: Reached target System Time Synchronized.
+Oct  2 09:23:44 dr100 kernel: [    0.676671] sdhost-bcm2835 3f202000.mmc: could not get clk, deferring probe
+Oct  2 09:23:44 dr100 kernel: [    0.676770] sdhci-pltfm: SDHCI platform and OF driver helper
+Oct  2 09:23:44 dr100 systemd[1]: Reached target System Initialization.
+Oct  2 09:23:44 dr100 kernel: [    0.678170] ledtrig-cpu: registered to indicate activity on CPUs
+Oct  2 09:23:44 dr100 systemd[1]: apt-daily.timer: Adding 2h 23min 18.148588s random time.
+Oct  2 09:23:44 dr100 kernel: [    0.678305] hidraw: raw HID events driver (C) Jiri Kosina
+Oct  2 09:23:44 dr100 kernel: [    0.678466] usbcore: registered new interface driver usbhid
+Oct  2 09:23:44 dr100 systemd[1]: Started Daily apt download activities.
+Oct  2 09:23:44 dr100 kernel: [    0.678471] usbhid: USB HID core driver
+Oct  2 09:23:44 dr100 kernel: [    0.679045] vchiq: vchiq_init_state: slot_zero = bad80000, is_master = 0
+Oct  2 09:23:44 dr100 kernel: [    0.680458] [vc_sm_connected_init]: start
+Oct  2 09:23:44 dr100 kernel: [    0.689499] [vc_sm_connected_init]: end - returning 0
+Oct  2 09:23:44 dr100 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct  2 09:23:44 dr100 kernel: [    0.690067] Initializing XFRM netlink socket
+Oct  2 09:23:44 dr100 kernel: [    0.690090] NET: Registered protocol family 17
+Oct  2 09:23:44 dr100 kernel: [    0.690181] Key type dns_resolver registered
+Oct  2 09:23:44 dr100 kernel: [    0.690688] Registering SWP/SWPB emulation handler
+Oct  2 09:23:44 dr100 kernel: [    0.691259] registered taskstats version 1
+Oct  2 09:23:44 dr100 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct  2 09:23:44 dr100 kernel: [    0.696967] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Oct  2 09:23:44 dr100 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct  2 09:23:44 dr100 kernel: [    0.697040] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Oct  2 09:23:44 dr100 kernel: [    0.698831] sdhost: log_buf @ bad13000 (fad13000)
+Oct  2 09:23:44 dr100 kernel: [    0.771519] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Oct  2 09:23:44 dr100 kernel: [    0.772497] of_cfs_init
+Oct  2 09:23:44 dr100 kernel: [    0.772583] of_cfs_init: OK
+Oct  2 09:23:44 dr100 kernel: [    0.773137] Waiting for root device PARTUUID=422de1a7-02...
+Oct  2 09:23:44 dr100 kernel: [    0.891587] Indeed it is in host mode hprt0 = 00021501
+Oct  2 09:23:44 dr100 systemd[1]: Listening on triggerhappy.socket.
+Oct  2 09:23:44 dr100 kernel: [    0.901584] mmc0: host does not support reading read-only switch, assuming write-enable
+Oct  2 09:23:44 dr100 kernel: [    0.905508] mmc0: new high speed SDHC card at address aaaa
+Oct  2 09:23:44 dr100 kernel: [    0.906037] mmcblk0: mmc0:aaaa SB32G 29.7 GiB
+Oct  2 09:23:44 dr100 kernel: [    0.925700]  mmcblk0: p1 p2
+Oct  2 09:23:44 dr100 kernel: [    0.955535] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Oct  2 09:23:44 dr100 kernel: [    0.955543] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Oct  2 09:23:44 dr100 kernel: [    0.977012] random: fast init done
+Oct  2 09:23:44 dr100 kernel: [    1.101530] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Oct  2 09:23:44 dr100 systemd[1]: Listening on GPS (Global Positioning System) Daemon Sockets.
+Oct  2 09:23:44 dr100 kernel: [    1.101666] Indeed it is in host mode hprt0 = 00001101
+Oct  2 09:23:44 dr100 kernel: [    1.341791] usb 1-1: New USB device found, idVendor=0424, idProduct=2514
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Sockets.
+Oct  2 09:23:44 dr100 kernel: [    1.341805] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:23:44 dr100 kernel: [    1.342456] hub 1-1:1.0: USB hub found
+Oct  2 09:23:44 dr100 kernel: [    1.342547] hub 1-1:1.0: 4 ports detected
+Oct  2 09:23:44 dr100 kernel: [    1.628713] EXT4-fs (mmcblk0p2): orphan cleanup on readonly fs
+Oct  2 09:23:44 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 48.322918s random time.
+Oct  2 09:23:44 dr100 kernel: [    1.628858] EXT4-fs (mmcblk0p2): 1 orphan inode deleted
+Oct  2 09:23:44 dr100 kernel: [    1.628864] EXT4-fs (mmcblk0p2): recovery complete
+Oct  2 09:23:44 dr100 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct  2 09:23:44 dr100 kernel: [    1.661533] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Oct  2 09:23:44 dr100 kernel: [    1.745881] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Timers.
+Oct  2 09:23:44 dr100 kernel: [    1.745938] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Oct  2 09:23:44 dr100 kernel: [    1.754561] devtmpfs: mounted
+Oct  2 09:23:44 dr100 cron[293]: (CRON) INFO (pidfile fd = 3)
+Oct  2 09:23:44 dr100 kernel: [    1.757570] Freeing unused kernel memory: 1024K
+Oct  2 09:23:44 dr100 kernel: [    1.791875] usb 1-1.1: New USB device found, idVendor=0424, idProduct=2514
+Oct  2 09:23:44 dr100 kernel: [    1.791889] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:23:44 dr100 kernel: [    1.792506] hub 1-1.1:1.0: USB hub found
+Oct  2 09:23:44 dr100 kernel: [    1.792610] hub 1-1.1:1.0: 3 ports detected
+Oct  2 09:23:44 dr100 systemd[1]: Reached target Basic System.
+Oct  2 09:23:44 dr100 kernel: [    1.891546] usb 1-1.2: new full-speed USB device number 4 using dwc_otg
+Oct  2 09:23:44 dr100 kernel: [    2.051047] usb 1-1.2: New USB device found, idVendor=17ef, idProduct=6047
+Oct  2 09:23:44 dr100 kernel: [    2.051062] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:23:44 dr100 kernel: [    2.051071] usb 1-1.2: Product: ThinkPad Compact USB Keyboard with TrackPoint
+Oct  2 09:23:44 dr100 systemd[1]: Starting Check for v3d driver...
+Oct  2 09:23:44 dr100 kernel: [    2.051079] usb 1-1.2: Manufacturer: Lenovo
+Oct  2 09:23:44 dr100 kernel: [    2.062233] input: Lenovo ThinkPad Compact USB Keyboard with TrackPoint as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:17EF:6047.0001/input/input0
+Oct  2 09:23:44 dr100 systemd[1]: Started Regular background program processing daemon.
+Oct  2 09:23:44 dr100 kernel: [    2.132242] hid-generic 0003:17EF:6047.0001: input,hidraw0: USB HID v1.00 Keyboard [Lenovo ThinkPad Compact USB Keyboard with TrackPoint] on usb-3f980000.usb-1.2/input0
+Oct  2 09:23:44 dr100 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Oct  2 09:23:44 dr100 kernel: [    2.156927] input: Lenovo ThinkPad Compact USB Keyboard with TrackPoint as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.1/0003:17EF:6047.0002/input/input1
+Oct  2 09:23:44 dr100 kernel: [    2.222109] hid-generic 0003:17EF:6047.0002: input,hiddev96,hidraw1: USB HID v1.00 Mouse [Lenovo ThinkPad Compact USB Keyboard with TrackPoint] on usb-3f980000.usb-1.2/input1
+Oct  2 09:23:44 dr100 systemd-udevd[204]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Oct  2 09:23:44 dr100 kernel: [    2.262445] NET: Registered protocol family 10
+Oct  2 09:23:44 dr100 kernel: [    2.263595] Segment Routing with IPv6
+Oct  2 09:23:44 dr100 systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Oct  2 09:23:44 dr100 kernel: [    2.274895] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct  2 09:23:44 dr100 kernel: [    2.291919] random: systemd: uninitialized urandom read (16 bytes read)
+Oct  2 09:23:44 dr100 systemd[1]: Starting System Logging Service...
+Oct  2 09:23:44 dr100 systemd[1]: Started D-Bus System Message Bus.
+Oct  2 09:23:44 dr100 systemd-udevd[218]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Oct  2 09:23:44 dr100 cron[293]: (CRON) INFO (Running @reboot jobs)
+Oct  2 09:23:44 dr100 kernel: [    2.344415] random: systemd: uninitialized urandom read (16 bytes read)
+Oct  2 09:23:44 dr100 kernel: [    2.360699] random: systemd-cryptse: uninitialized urandom read (16 bytes read)
+Oct  2 09:23:44 dr100 avahi-daemon[294]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Oct  2 09:23:44 dr100 kernel: [    2.581562] usb 1-1.1.1: new high-speed USB device number 5 using dwc_otg
+Oct  2 09:23:44 dr100 kernel: [    2.712051] usb 1-1.1.1: New USB device found, idVendor=0424, idProduct=7800
+Oct  2 09:23:44 dr100 kernel: [    2.712066] usb 1-1.1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Oct  2 09:23:44 dr100 avahi-daemon[294]: Successfully dropped root privileges.
+Oct  2 09:23:44 dr100 kernel: [    2.848390] i2c /dev entries driver
+Oct  2 09:23:44 dr100 kernel: [    2.998185] libphy: lan78xx-mdiobus: probed
+Oct  2 09:23:44 dr100 kernel: [    3.399800] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Oct  2 09:23:44 dr100 kernel: [    4.079068] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Oct  2 09:23:44 dr100 kernel: [    4.083156] bcm2835_alsa bcm2835_alsa: card created with 8 channels
+Oct  2 09:23:44 dr100 avahi-daemon[294]: avahi-daemon 0.6.32 starting up.
+Oct  2 09:23:44 dr100 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="296" x-info="http://www.rsyslog.com"] start
+Oct  2 09:23:44 dr100 avahi-daemon[294]: Successfully called chroot().
+Oct  2 09:23:44 dr100 avahi-daemon[294]: Successfully dropped remaining capabilities.
+Oct  2 09:23:44 dr100 avahi-daemon[294]: No service file found in /etc/avahi/services.
+Oct  2 09:23:44 dr100 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Oct  2 09:23:44 dr100 avahi-daemon[294]: Network interface enumeration completed.
+Oct  2 09:23:44 dr100 avahi-daemon[294]: Server startup complete. Host name is dr100.local. Local service cookie is 1113250256.
+Oct  2 09:23:44 dr100 systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Oct  2 09:23:44 dr100 systemd[1]: Starting triggerhappy global hotkey daemon...
+Oct  2 09:23:44 dr100 systemd[1]: Starting dhcpcd on all interfaces...
+Oct  2 09:23:44 dr100 systemd[1]: Starting Disable WiFi if country not set...
+Oct  2 09:23:44 dr100 systemd[1]: Started BluezALSA proxy.
+Oct  2 09:23:44 dr100 systemd[1]: Starting Login Service...
+Oct  2 09:23:44 dr100 systemd[1]: Starting Save/Restore Sound Card State...
+Oct  2 09:23:44 dr100 systemd[1]: Started System Logging Service.
+Oct  2 09:23:44 dr100 systemd[1]: Started Check for v3d driver.
+Oct  2 09:23:44 dr100 thd[309]: Found socket passed from systemd
+Oct  2 09:23:44 dr100 systemd[1]: Started triggerhappy global hotkey daemon.
+Oct  2 09:23:44 dr100 systemd[1]: Started Save/Restore Sound Card State.
+Oct  2 09:23:44 dr100 dhcpcd[310]: dev: loaded udev
+Oct  2 09:23:44 dr100 kernel: [    5.359562] Bluetooth: Core ver 2.22
+Oct  2 09:23:44 dr100 kernel: [    5.359633] NET: Registered protocol family 31
+Oct  2 09:23:44 dr100 kernel: [    5.359640] Bluetooth: HCI device and connection manager initialized
+Oct  2 09:23:44 dr100 kernel: [    5.359660] Bluetooth: HCI socket layer initialized
+Oct  2 09:23:44 dr100 kernel: [    5.359673] Bluetooth: L2CAP socket layer initialized
+Oct  2 09:23:44 dr100 kernel: [    5.359707] Bluetooth: SCO socket layer initialized
+Oct  2 09:23:44 dr100 bluealsa[313]: /usr/bin/bluealsa: No HCI device available
+Oct  2 09:23:44 dr100 systemd[1]: bluealsa.service: Main process exited, code=exited, status=1/FAILURE
+Oct  2 09:23:44 dr100 systemd[1]: bluealsa.service: Unit entered failed state.
+Oct  2 09:23:44 dr100 systemd[1]: bluealsa.service: Failed with result 'exit-code'.
+Oct  2 09:23:44 dr100 systemd[1]: Started Login Service.
+Oct  2 09:23:44 dr100 systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct  2 09:23:44 dr100 dhcpcd[310]: forked to background, child pid 354
+Oct  2 09:23:44 dr100 wifi-country[312]: Wi-Fi is disabled because the country is not set
+Oct  2 09:23:44 dr100 systemd[1]: Started dhcpcd on all interfaces.
+Oct  2 09:23:44 dr100 systemd[1]: Started Disable WiFi if country not set.
+Oct  2 09:23:44 dr100 dhcpcd[354]: eth0: waiting for carrier
+Oct  2 09:23:44 dr100 kernel: [    5.514939] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct  2 09:23:45 dr100 systemd[1]: Received SIGRTMIN+20 from PID 211 (plymouthd).
+Oct  2 09:23:45 dr100 kernel: [    6.193047] random: crng init done
+Oct  2 09:23:45 dr100 kernel: [    6.193062] random: 7 urandom warning(s) missed due to ratelimiting
+Oct  2 09:23:46 dr100 dphys-swapfile[295]: Starting dphys-swapfile swapfile setup ...
+Oct  2 09:23:46 dr100 ifup[317]: /bin/sh: 1: cannot create /sys/class/net/wwan0/qmi/raw_ip: Directory nonexistent
+Oct  2 09:23:46 dr100 ifup[317]: ifup: failed to bring up wwan0
+Oct  2 09:23:46 dr100 ifup[317]: /bin/sh: 1: cannot create /sys/class/net/wwan1/qmi/raw_ip: Directory nonexistent
+Oct  2 09:23:46 dr100 ifup[317]: ifup: failed to bring up wwan1
+Oct  2 09:23:46 dr100 ifup[317]: /bin/sh: 1: cannot create /sys/class/net/wwan2/qmi/raw_ip: Directory nonexistent
+Oct  2 09:23:46 dr100 ifup[317]: ifup: failed to bring up wwan2
+Oct  2 09:23:46 dr100 dphys-swapfile[295]: want /var/swap=100MByte, checking existing: keeping it
+Oct  2 09:23:46 dr100 systemd[1]: networking.service: Main process exited, code=exited, status=1/FAILURE
+Oct  2 09:23:46 dr100 systemd[1]: Failed to start Raise network interfaces.
+Oct  2 09:23:46 dr100 systemd[1]: networking.service: Unit entered failed state.
+Oct  2 09:23:46 dr100 systemd[1]: networking.service: Failed with result 'exit-code'.
+Oct  2 09:23:46 dr100 systemd[1]: Reached target Network.
+Oct  2 09:23:46 dr100 systemd[1]: Starting /etc/rc.local Compatibility...
+Oct  2 09:23:46 dr100 systemd[1]: Starting Permit User Sessions...
+Oct  2 09:23:46 dr100 kernel: [    7.161355] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+Oct  2 09:23:46 dr100 systemd[1]: Starting OpenBSD Secure Shell server...
+Oct  2 09:23:46 dr100 systemd[1]: Starting LSB: Start/stop fluentd...
+Oct  2 09:23:46 dr100 dphys-swapfile[295]: done.
+Oct  2 09:23:46 dr100 systemd[1]: Started LSB: Autogenerate and use a swap file.
+Oct  2 09:23:46 dr100 systemd[1]: Started /etc/rc.local Compatibility.
+Oct  2 09:23:46 dr100 systemd[1]: Started Permit User Sessions.
+Oct  2 09:23:46 dr100 systemd[1]: Starting Light Display Manager...
+Oct  2 09:23:46 dr100 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Oct  2 09:23:46 dr100 systemd[1]: Starting Hold until boot process finishes up...
+Oct  2 09:23:46 dr100 systemd[1]: Received SIGRTMIN+21 from PID 211 (plymouthd).
+Oct  2 09:23:46 dr100 systemd[1]: Started Terminate Plymouth Boot Screen.
+Oct  2 09:23:46 dr100 systemd[1]: Started Hold until boot process finishes up.
+Oct  2 09:23:46 dr100 systemd[1]: Started Getty on tty1.
+Oct  2 09:23:46 dr100 systemd[1]: Reached target Login Prompts.
+Oct  2 09:23:46 dr100 fluentd[434]: Starting Start/stop fluentd :/home/pi/msense-qmi/fluentd/td/gps.pos
+Oct  2 09:23:46 dr100 fluentd[434]: /home/pi/msense-qmi/data/gps.json, 2898830, 259485
+Oct  2 09:23:46 dr100 fluentd[434]: 2899968, 259485
+Oct  2 09:23:47 dr100 fluentd[434]:  ok./home/pi/msense-qmi/fluentd/td/modem_0.pos
+Oct  2 09:23:47 dr100 fluentd[434]: /home/pi/msense-qmi/data/modem_0.json, 33608000, 259482
+Oct  2 09:23:47 dr100 fluentd[434]: 33611776, 259482
+Oct  2 09:23:47 dr100 fluentd[434]:  ok./home/pi/msense-qmi/fluentd/td/modem_1.pos
+Oct  2 09:23:47 dr100 systemd[1]: Started OpenBSD Secure Shell server.
+Oct  2 09:23:47 dr100 fluentd[434]: /home/pi/msense-qmi/data/modem_1.json, 32076610, 259468
+Oct  2 09:23:47 dr100 fluentd[434]: 32079872, 259468
+Oct  2 09:23:47 dr100 fluentd[434]:  ok./home/pi/msense-qmi/fluentd/td/modem_2.pos
+Oct  2 09:23:47 dr100 fluentd[434]: /home/pi/msense-qmi/data/modem_2.json, 35547097, 259467
+Oct  2 09:23:47 dr100 fluentd[434]: 35549184, 259467
+Oct  2 09:23:47 dr100 fluentd[434]:  ok./home/pi/msense-qmi/fluentd/td/speedtest.pos
+Oct  2 09:23:47 dr100 fluentd[434]: /home/pi/msense-qmi/data/speedtest.json, 26584361, 259483
+Oct  2 09:23:47 dr100 fluentd[434]: 26584361, 259483
+Oct  2 09:23:47 dr100 lightdm[446]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Oct  2 09:23:47 dr100 fluentd[434]:  ok. fluentd.
+Oct  2 09:23:47 dr100 systemd[1]: Started LSB: Start/stop fluentd.
+Oct  2 09:23:47 dr100 systemd[1]: Started Light Display Manager.
+Oct  2 09:23:47 dr100 raspi-config[308]: Checking if shift key is held down: No. Switching to ondemand scaling governor.
+Oct  2 09:23:47 dr100 systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Oct  2 09:23:47 dr100 systemd[1]: Reached target Multi-User System.
+Oct  2 09:23:47 dr100 systemd[1]: Reached target Graphical Interface.
+Oct  2 09:23:47 dr100 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct  2 09:23:47 dr100 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct  2 09:23:47 dr100 systemd[1]: Startup finished in 2.086s (kernel) + 6.024s (userspace) = 8.111s.
+Oct  2 09:23:47 dr100 systemd[1]: Created slice User Slice of pi.
+Oct  2 09:23:47 dr100 systemd[1]: Started Session c1 of user pi.
+Oct  2 09:23:47 dr100 systemd[1]: Starting User Manager for UID 1000...
+Oct  2 09:23:48 dr100 systemd[547]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct  2 09:23:48 dr100 systemd[547]: Starting D-Bus User Message Bus Socket.
+Oct  2 09:23:48 dr100 systemd[547]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct  2 09:23:48 dr100 systemd[547]: Reached target Timers.
+Oct  2 09:23:48 dr100 systemd[547]: Reached target Paths.
+Oct  2 09:23:48 dr100 systemd[547]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct  2 09:23:48 dr100 systemd[547]: Listening on GnuPG cryptographic agent (access for web browsers).
+Oct  2 09:23:48 dr100 systemd[547]: Listening on D-Bus User Message Bus Socket.
+Oct  2 09:23:48 dr100 systemd[547]: Reached target Sockets.
+Oct  2 09:23:48 dr100 systemd[547]: Reached target Basic System.
+Oct  2 09:23:48 dr100 systemd[547]: Reached target Default.
+Oct  2 09:23:48 dr100 systemd[547]: Startup finished in 229ms.
+Oct  2 09:23:48 dr100 systemd[1]: Started User Manager for UID 1000.
+Oct  2 09:23:49 dr100 lightdm[590]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Oct  2 09:23:49 dr100 systemd[1]: Started Session c2 of user pi.
+Oct  2 09:23:49 dr100 lightdm[446]: Error opening audit socket: Protocol not supported
+Oct  2 09:23:49 dr100 systemd[547]: Started D-Bus User Message Bus.
+Oct  2 09:23:51 dr100 dbus-daemon[608]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+Oct  2 09:23:51 dr100 systemd[547]: Starting Virtual filesystem service...
+Oct  2 09:23:51 dr100 dbus-daemon[608]: Successfully activated service 'org.gtk.vfs.Daemon'
+Oct  2 09:23:51 dr100 systemd[547]: Started Virtual filesystem service.
+Oct  2 09:23:51 dr100 kernel: [   12.033006] fuse init (API version 7.26)
+Oct  2 09:23:51 dr100 systemd[1]: Mounting FUSE Control File System...
+Oct  2 09:23:51 dr100 systemd[1]: Mounted FUSE Control File System.
+Oct  2 09:23:51 dr100 dbus[298]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service'
+Oct  2 09:23:51 dr100 systemd[1]: Starting Authorization Manager...
+Oct  2 09:23:51 dr100 polkitd[700]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct  2 09:23:51 dr100 dbus[298]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct  2 09:23:51 dr100 systemd[1]: Started Authorization Manager.
+Oct  2 09:23:52 dr100 dbus-daemon[608]: Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service'
+Oct  2 09:23:52 dr100 systemd[547]: Starting Virtual filesystem service - disk device monitor...
+Oct  2 09:23:52 dr100 dbus[298]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Oct  2 09:23:52 dr100 systemd[1]: Starting Disk Manager...
+Oct  2 09:23:52 dr100 udisksd[729]: udisks daemon version 2.1.8 starting
+Oct  2 09:23:52 dr100 dbus[298]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Oct  2 09:23:52 dr100 systemd[1]: Started Disk Manager.
+Oct  2 09:23:52 dr100 udisksd[729]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct  2 09:23:52 dr100 dbus-daemon[608]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Oct  2 09:23:52 dr100 systemd[547]: Started Virtual filesystem service - disk device monitor.
+Oct  2 09:23:52 dr100 dbus-daemon[608]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+Oct  2 09:23:52 dr100 systemd[547]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Oct  2 09:23:52 dr100 gvfs-afc-volume-monitor[736]: Volume monitor alive
+Oct  2 09:23:52 dr100 dbus-daemon[608]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Oct  2 09:23:52 dr100 systemd[547]: Started Virtual filesystem service - Apple File Conduit monitor.
+Oct  2 09:23:52 dr100 dbus-daemon[608]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+Oct  2 09:23:52 dr100 systemd[547]: Starting Virtual filesystem service - digital camera monitor...
+Oct  2 09:23:53 dr100 dbus-daemon[608]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Oct  2 09:23:53 dr100 systemd[547]: Started Virtual filesystem service - digital camera monitor.
+Oct  2 09:23:53 dr100 dbus-daemon[608]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+Oct  2 09:23:53 dr100 systemd[547]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Oct  2 09:23:53 dr100 dbus-daemon[608]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Oct  2 09:23:53 dr100 systemd[547]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Oct  2 09:23:53 dr100 dbus-daemon[608]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+Oct  2 09:23:53 dr100 systemd[547]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Oct  2 09:23:53 dr100 dbus-daemon[608]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Oct  2 09:23:53 dr100 systemd[547]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Oct  2 09:23:53 dr100 kernel: [   14.291576] usb 1-1.1.2: new high-speed USB device number 6 using dwc_otg
+Oct  2 09:23:53 dr100 kernel: [   14.431561] usb 1-1.1.2: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:23:53 dr100 kernel: [   14.431570] usb 1-1.1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:23:53 dr100 kernel: [   14.431574] usb 1-1.1.2: Product: Android
+Oct  2 09:23:53 dr100 kernel: [   14.431578] usb 1-1.1.2: Manufacturer: Android
+Oct  2 09:23:53 dr100 mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.2"
+Oct  2 09:23:53 dr100 mtp-probe: bus: 1, device: 6 was not an MTP device
+Oct  2 09:23:53 dr100 kernel: [   14.473840] usbcore: registered new interface driver usbserial
+Oct  2 09:23:53 dr100 kernel: [   14.473876] usbcore: registered new interface driver usbserial_generic
+Oct  2 09:23:53 dr100 kernel: [   14.473900] usbserial: USB Serial support registered for generic
+Oct  2 09:23:53 dr100 kernel: [   14.477913] usbcore: registered new interface driver cdc_wdm
+Oct  2 09:23:53 dr100 kernel: [   14.487156] usbcore: registered new interface driver option
+Oct  2 09:23:53 dr100 kernel: [   14.487208] usbserial: USB Serial support registered for GSM modem (1-port)
+Oct  2 09:23:53 dr100 kernel: [   14.487633] option 1-1.1.2:1.0: GSM modem (1-port) converter detected
+Oct  2 09:23:53 dr100 kernel: [   14.490350] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB0
+Oct  2 09:23:53 dr100 kernel: [   14.490564] option 1-1.1.2:1.1: GSM modem (1-port) converter detected
+Oct  2 09:23:53 dr100 kernel: [   14.490770] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB1
+Oct  2 09:23:53 dr100 kernel: [   14.490926] option 1-1.1.2:1.2: GSM modem (1-port) converter detected
+Oct  2 09:23:53 dr100 kernel: [   14.491094] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB2
+Oct  2 09:23:53 dr100 kernel: [   14.491244] option 1-1.1.2:1.3: GSM modem (1-port) converter detected
+Oct  2 09:23:53 dr100 kernel: [   14.491418] usb 1-1.1.2: GSM modem (1-port) converter now attached to ttyUSB3
+Oct  2 09:23:53 dr100 kernel: [   14.493414] qmi_wwan 1-1.1.2:1.4: cdc-wdm0: USB WDM device
+Oct  2 09:23:53 dr100 kernel: [   14.494738] qmi_wwan 1-1.1.2:1.4 wwan0: register 'qmi_wwan' at usb-3f980000.usb-1.1.2, WWAN/QMI device, d6:38:76:21:12:3c
+Oct  2 09:23:53 dr100 kernel: [   14.494889] usbcore: registered new interface driver qmi_wwan
+Oct  2 09:23:54 dr100 systemd[1]: Found device Android.
+Oct  2 09:23:54 dr100 systemd[1]: Started ifup for wwan0.
+Oct  2 09:23:54 dr100 kernel: [   14.661562] usb 1-1.3: new high-speed USB device number 7 using dwc_otg
+Oct  2 09:23:54 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:23:54 dr100 kernel: [   14.801719] usb 1-1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:23:54 dr100 kernel: [   14.801730] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:23:54 dr100 kernel: [   14.801735] usb 1-1.3: Product: Android
+Oct  2 09:23:54 dr100 kernel: [   14.801739] usb 1-1.3: Manufacturer: Android
+Oct  2 09:23:54 dr100 kernel: [   14.803459] option 1-1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   14.803882] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB4
+Oct  2 09:23:54 dr100 kernel: [   14.804298] option 1-1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   14.804527] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB5
+Oct  2 09:23:54 dr100 kernel: [   14.804822] option 1-1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   14.805012] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB6
+Oct  2 09:23:54 dr100 kernel: [   14.805369] option 1-1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   14.805548] usb 1-1.3: GSM modem (1-port) converter now attached to ttyUSB7
+Oct  2 09:23:54 dr100 kernel: [   14.806435] qmi_wwan 1-1.3:1.4: cdc-wdm1: USB WDM device
+Oct  2 09:23:54 dr100 kernel: [   14.807574] qmi_wwan 1-1.3:1.4 wwan1: register 'qmi_wwan' at usb-3f980000.usb-1.3, WWAN/QMI device, d6:38:76:21:12:3c
+Oct  2 09:23:54 dr100 mtp-probe: checking bus 1, device 7: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Oct  2 09:23:54 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:23:54 dr100 mtp-probe: bus: 1, device: 7 was not an MTP device
+Oct  2 09:23:54 dr100 sh[806]: wwan0=wwan0
+Oct  2 09:23:54 dr100 kernel: [   14.891570] usb 1-1.1.3: new high-speed USB device number 8 using dwc_otg
+Oct  2 09:23:54 dr100 systemd[1]: Found device Android.
+Oct  2 09:23:54 dr100 systemd[1]: Started ifup for wwan1.
+Oct  2 09:23:54 dr100 kernel: [   15.031769] usb 1-1.1.3: New USB device found, idVendor=2c7c, idProduct=0125
+Oct  2 09:23:54 dr100 kernel: [   15.031783] usb 1-1.1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct  2 09:23:54 dr100 kernel: [   15.031787] usb 1-1.1.3: Product: Android
+Oct  2 09:23:54 dr100 kernel: [   15.031791] usb 1-1.1.3: Manufacturer: Android
+Oct  2 09:23:54 dr100 kernel: [   15.033837] option 1-1.1.3:1.0: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   15.035046] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB8
+Oct  2 09:23:54 dr100 kernel: [   15.035507] option 1-1.1.3:1.1: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   15.036587] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB9
+Oct  2 09:23:54 dr100 kernel: [   15.036958] option 1-1.1.3:1.2: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   15.038326] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB10
+Oct  2 09:23:54 dr100 kernel: [   15.038759] option 1-1.1.3:1.3: GSM modem (1-port) converter detected
+Oct  2 09:23:54 dr100 kernel: [   15.040579] usb 1-1.1.3: GSM modem (1-port) converter now attached to ttyUSB11
+Oct  2 09:23:54 dr100 kernel: [   15.041710] qmi_wwan 1-1.1.3:1.4: cdc-wdm2: USB WDM device
+Oct  2 09:23:54 dr100 kernel: [   15.042982] qmi_wwan 1-1.1.3:1.4 wwan2: register 'qmi_wwan' at usb-3f980000.usb-1.1.3, WWAN/QMI device, d6:38:76:21:12:3c
+Oct  2 09:23:54 dr100 mtp-probe: checking bus 1, device 8: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.3"
+Oct  2 09:23:54 dr100 mtp-probe: bus: 1, device: 8 was not an MTP device
+Oct  2 09:23:54 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:23:54 dr100 systemd[1]: Found device Android.
+Oct  2 09:23:54 dr100 systemd[1]: Started ifup for wwan2.
+Oct  2 09:23:54 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:23:54 dr100 sh[895]: wwan1=wwan1
+Oct  2 09:23:54 dr100 systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct  2 09:23:54 dr100 systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct  2 09:23:54 dr100 sh[975]: wwan2=wwan2
+Oct  2 09:23:55 dr100 sh[806]: MNC 6
+Oct  2 09:23:55 dr100 sh[806]: [U+]
+Oct  2 09:23:55 dr100 sh[806]: Set Band 1
+Oct  2 09:24:01 dr100 sh[975]: MNC 6
+Oct  2 09:24:01 dr100 sh[975]: [U+]
+Oct  2 09:24:01 dr100 sh[975]: Set Band 7
+Oct  2 09:24:01 dr100 sh[895]: MNC 6
+Oct  2 09:24:01 dr100 sh[895]: [U+]
+Oct  2 09:24:01 dr100 sh[895]: Set Band 5
+Oct  2 09:24:07 dr100 sh[806]: [/dev/cdc-wdm0] Network started
+Oct  2 09:24:07 dr100 sh[806]: #011Packet data handle: '2267057232'
+Oct  2 09:24:07 dr100 sh[806]: [/dev/cdc-wdm0] Client ID not released:
+Oct  2 09:24:07 dr100 sh[806]: #011Service: 'wds'
+Oct  2 09:24:07 dr100 sh[806]: #011    CID: '19'
+Oct  2 09:24:08 dr100 sh[806]: udhcpc (v1.22.1) started
+Oct  2 09:24:08 dr100 uchcpc[1105]: wwan0: deconfigured
+Oct  2 09:24:08 dr100 sh[806]: Sending discover...
+Oct  2 09:24:08 dr100 sh[806]: Sending select for 10.32.108.115...
+Oct  2 09:24:08 dr100 sh[806]: Lease of 10.32.108.115 obtained, lease time 7200
+Oct  2 09:24:08 dr100 uchcpc[1105]: wwan0: bound: IP=10.32.108.115/255.255.255.248 router=10.32.108.116 domain="" dns="106.102.124.4 117.111.30.132" lease=7200
+Oct  2 09:24:14 dr100 sh[975]: [/dev/cdc-wdm2] Network started
+Oct  2 09:24:14 dr100 sh[975]: #011Packet data handle: '2274847632'
+Oct  2 09:24:14 dr100 sh[975]: [/dev/cdc-wdm2] Client ID not released:
+Oct  2 09:24:14 dr100 sh[975]: #011Service: 'wds'
+Oct  2 09:24:14 dr100 sh[975]: #011    CID: '19'
+Oct  2 09:24:14 dr100 sh[895]: [/dev/cdc-wdm1] Network started
+Oct  2 09:24:14 dr100 sh[895]: #011Packet data handle: '2274785200'
+Oct  2 09:24:14 dr100 sh[895]: [/dev/cdc-wdm1] Client ID not released:
+Oct  2 09:24:14 dr100 sh[895]: #011Service: 'wds'
+Oct  2 09:24:14 dr100 sh[895]: #011    CID: '19'
+Oct  2 09:24:14 dr100 sh[975]: udhcpc (v1.22.1) started
+Oct  2 09:24:14 dr100 sh[895]: udhcpc (v1.22.1) started
+Oct  2 09:24:14 dr100 uchcpc[1179]: wwan2: deconfigured
+Oct  2 09:24:14 dr100 uchcpc[1185]: wwan1: deconfigured
+Oct  2 09:24:14 dr100 sh[975]: Sending discover...
+Oct  2 09:24:14 dr100 sh[895]: Sending discover...
+Oct  2 09:24:14 dr100 sh[975]: Sending select for 10.184.207.3...
+Oct  2 09:24:14 dr100 sh[895]: Sending select for 10.177.62.247...
+Oct  2 09:24:14 dr100 sh[975]: Lease of 10.184.207.3 obtained, lease time 7200
+Oct  2 09:24:14 dr100 sh[975]: ip: RTNETLINK answers: File exists
+Oct  2 09:24:14 dr100 sh[895]: Lease of 10.177.62.247 obtained, lease time 7200
+Oct  2 09:24:14 dr100 sh[895]: ip: RTNETLINK answers: File exists
+Oct  2 09:24:14 dr100 uchcpc[1185]: wwan1: bound: IP=10.177.62.247/255.255.255.240 router=10.177.62.248 domain="" dns="117.111.29.4 211.36.129.36" lease=7200
+Oct  2 09:31:28 dr100 systemd[1]: Time has been changed
+Oct  2 09:31:28 dr100 systemd-timesyncd[277]: Synchronized to time server 106.247.248.106:123 (2.debian.pool.ntp.org).
+Oct  2 09:31:28 dr100 systemd[547]: Time has been changed
+Oct  2 09:31:28 dr100 systemd[1]: apt-daily-upgrade.timer: Adding 56min 54.341989s random time.
+Oct  2 09:31:28 dr100 systemd[1]: apt-daily.timer: Adding 4h 33min 34.923631s random time.
+Oct  2 09:31:28 dr100 uchcpc[1179]: wwan2: bound: IP=10.184.207.3/255.255.255.248 router=10.184.207.4 domain="" dns="211.36.129.4 117.111.29.132" lease=7200
+Oct  2 09:32:00 dr100 systemd[1]: Started GPS (Global Positioning System) Daemon.
+Oct  2 09:32:00 dr100 kernel: [   67.339960] uart-pl011 3f201000.serial: no DMA platform data
